@@ -16,7 +16,7 @@ Dashboard of technical AI roles at companies hiring in Singapore, built by EDB f
 1. On GitHub, create a new **public** repository, for example `come-build-ai-in-singapore`.
 2. Choose **Add file → Upload files**, drag in all four files above and commit to `main`.
 3. Open **Settings → Pages**. Under **Build and deployment**, set Source to **Deploy from a branch**, branch **main**, folder **/ (root)**, then **Save**.
-4. After a minute or two the page is live at `https://shaoweikong95.github.io/come-build-ai-in-singapore/`.
+4. After a minute or two the page is live at `https://edb-disg.github.io/come-build-ai-in-singapore/`.
 
 ## Updating the data
 
