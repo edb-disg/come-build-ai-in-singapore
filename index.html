@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Technical AI roles open now at companies hiring in Singapore. Developed by EDB.">
+<style>[hidden]{display:none!important}body{margin:0}img{max-width:100%}</style>
+<title>Come Build AI in Singapore</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: two views. Home = headline, two stats, role types, ambient company list. Type view (#hash) = companies hiring for one role type. */
+:root{
+  --bg:#F4F6F7; --surface:#FFFFFF; --fg:#0F1C24; --muted:#56666F; --line:#DCE3E7;
+  --accent:#C8203A; --teal:#0D5A62; --teal-soft:#E3F0F1;
+  --font-display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --font-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0B1418; --surface:#111E23; --fg:#E6EEF1; --muted:#93A5AE; --line:#223239;
+  --accent:#FF5C70; --teal:#6CC7CE; --teal-soft:#16323A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0B1418; --surface:#111E23; --fg:#E6EEF1; --muted:#93A5AE; --line:#223239;
+  --accent:#FF5C70; --teal:#6CC7CE; --teal-soft:#16323A; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:15px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1180px;margin:0 auto;padding-block:32px 48px;display:flex;flex-direction:column;gap:36px}
+.view{display:flex;flex-direction:column;gap:36px}
+.view[hidden]{display:none}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--teal);outline-offset:2px;border-radius:4px}
+
+header.top{display:flex;gap:32px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
+.intro{display:flex;flex-direction:column;gap:12px;flex:1 1 420px;min-width:0}
+.qrbox{margin:0;flex:none;display:flex;flex-direction:column;align-items:center;gap:8px;padding:12px;background:var(--surface);border:1px solid var(--line);border-radius:8px}
+.qr{width:148px;height:148px;display:block}
+.qrbox figcaption{font-size:12px;color:var(--muted);max-width:148px;text-align:center}
+@media (max-width:640px){.qrbox{flex-direction:row;align-items:center;gap:14px;width:100%}.qr{width:112px;height:112px}.qrbox figcaption{max-width:none;text-align:left;font-size:14px}}
+.eyebrow{font-family:var(--font-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--teal)}
+h1{font-family:var(--font-display);font-weight:700;font-size:clamp(32px,5.5vw,56px);line-height:1.02;margin:0;text-wrap:balance;letter-spacing:-.01em}
+h1 em{font-style:normal;color:var(--accent)}
+.titlerow{display:flex;align-items:center;gap:20px;flex-wrap:nowrap}
+.titlerow h1{min-width:0}
+.logolink{flex:none;display:flex;flex-direction:column;align-items:center;gap:4px;text-decoration:none;border-radius:6px}
+.logolink .by{font-size:11px;letter-spacing:.04em;color:var(--muted);white-space:nowrap}
+.logolink:hover .logo{box-shadow:0 0 0 2px var(--teal)}
+@media (max-width:520px){.titlerow{gap:12px}.logo{height:40px;padding:4px 6px}}
+.logo{height:clamp(44px,6vw,68px);width:auto;max-width:100%;display:block;background:#ffffff;padding:6px 8px;border-radius:6px}
+.lede{margin:0;max-width:62ch;color:var(--muted);font-size:17px}
+.cocount{margin:0;align-self:flex-start;display:inline-flex;align-items:baseline;gap:8px;font-size:16px;font-weight:500;padding:6px 14px;border-radius:999px;background:var(--teal-soft);color:var(--teal)}
+.cocount b{font-family:var(--font-display);font-size:22px;font-weight:700;font-variant-numeric:tabular-nums}
+.facts{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:13px;color:var(--muted)}
+.facts b{color:var(--fg);font-weight:600}
+
+.summary{display:flex;flex-direction:column;border-top:2px solid var(--fg);border-bottom:1px solid var(--line)}
+.cobox{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding:20px 0;border-bottom:1px solid var(--line)}
+.cobox .n{font-family:var(--font-display);font-weight:700;font-size:clamp(48px,8vw,80px);line-height:1;color:var(--teal);font-variant-numeric:tabular-nums}
+.cobox .txt{display:flex;flex-direction:column;gap:4px;min-width:0;flex:1 1 260px}
+.cobox .l{font-family:var(--font-display);font-weight:500;font-size:clamp(20px,2.6vw,26px);line-height:1.2;text-wrap:balance}
+.cobox .s{font-size:14px;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.stat{padding:18px 16px 20px 0;display:flex;flex-direction:column;gap:4px}
+.stat+.stat{padding-left:24px;border-left:1px solid var(--line)}
+.stat .n{font-family:var(--font-display);font-weight:700;font-size:clamp(40px,6vw,64px);line-height:1;font-variant-numeric:tabular-nums}
+.stat:first-child .n{color:var(--accent)}
+.stat .l{font-size:15px;font-weight:500}
+.stat .s{font-size:13px;color:var(--muted)}
+
+h2{font-family:var(--font-display);font-weight:500;font-size:22px;margin:0}
+.sec{display:flex;flex-direction:column;gap:14px}
+.sec-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.sec-head p{margin:0;font-size:13px;color:var(--muted)}
+
+.typelist{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:900px){.typelist{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.typelist{grid-template-columns:1fr}}
+.type{display:flex;flex-direction:column;gap:8px;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px;min-width:0;transition:border-color .15s}
+.type:hover{border-color:var(--teal)}
+.type .row1{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.type .nm{font-family:var(--font-display);font-weight:500;font-size:19px;line-height:1.2}
+.type .lbl{font-size:13px;color:var(--muted)}
+.type .eg{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:4px}
+.type .egl{font-size:12px;color:var(--muted)}
+.type .tag{font-size:12px;padding:2px 8px;border-radius:4px;background:var(--teal-soft);color:var(--teal);font-weight:500}
+.type .ct{font-family:var(--font-display);font-weight:700;font-size:34px;line-height:1;color:var(--accent);font-variant-numeric:tabular-nums}
+.type .track{height:6px;background:var(--line);border-radius:2px;overflow:hidden}
+.type .fill{display:block;height:100%;background:var(--teal)}
+.type .ex{font-size:13px;color:var(--muted)}
+.type .go{font-size:13px;color:var(--teal);font-weight:500;margin-top:auto}
+
+.cos,.groups{display:flex;flex-direction:column;gap:28px}
+.cofilter{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.group{display:flex;flex-direction:column;gap:12px}
+.ghead{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.ghead h3{margin:0;font-family:var(--font-display);font-weight:500;font-size:18px}
+.ghead span{font-size:13px;color:var(--muted)}
+.cogrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px}
+.cogrid a{display:flex;justify-content:space-between;gap:8px;font-size:14px;font-weight:500;color:var(--fg);text-decoration:none;padding:9px 12px;border:1px solid var(--line);border-radius:6px;background:var(--surface);min-width:0}
+.cogrid a span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cogrid a::after{content:"\2197";color:var(--accent);flex:none}
+.cogrid a:hover{border-color:var(--teal)}
+
+/* Type view */
+.back{align-self:flex-start;font-size:14px;color:var(--teal);text-decoration:none;font-weight:500}
+.back:hover{text-decoration:underline;text-underline-offset:3px}
+.tv-head{display:flex;flex-direction:column;gap:10px}
+.tv-head h1{font-size:clamp(30px,5vw,48px)}
+.tv-head .lede{font-size:16px}
+.typenav{display:flex;flex-wrap:wrap;gap:6px}
+.typenav a{font-size:13px;text-decoration:none;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--surface)}
+.typenav a[aria-current="page"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.search{flex:1 1 260px;min-width:0;padding:10px 12px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--fg);font:inherit}
+.chips{display:flex;gap:6px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--fg);padding:8px 12px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+select{padding:9px 10px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--fg);font:inherit;font-size:13px;max-width:100%}
+.showing{font-size:13px;color:var(--muted);width:100%}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;align-items:start}
+@media (max-width:400px){.grid{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.card-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.co{display:flex;flex-direction:column;gap:2px;min-width:0}
+.co a{font-family:var(--font-display);font-weight:700;font-size:20px;line-height:1.15;text-decoration:none;color:var(--fg)}
+.co a::after{content:" \2197";font-family:var(--font-body);font-weight:400;font-size:15px;color:var(--accent)}
+.co a:hover{text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--accent)}
+.co .meta{font-size:13px;color:var(--muted)}
+.count{text-align:right;flex:none}
+.count b{display:block;font-family:var(--font-mono);font-size:26px;line-height:1;color:var(--accent);font-variant-numeric:tabular-nums}
+.count span{font-size:11px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+ul.roles{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;border-top:1px solid var(--line)}
+ul.roles li{padding:7px 0;border-bottom:1px solid var(--line);font-size:14px;display:flex;justify-content:space-between;gap:10px}
+ul.roles li .t{min-width:0;overflow-wrap:anywhere}
+ul.roles li .t a{text-decoration:none}
+ul.roles li .t a:hover{text-decoration:underline;text-underline-offset:2px;text-decoration-color:var(--accent)}
+ul.roles li .loc{flex:none;font-size:12px;color:var(--muted)}
+ul.roles li .loc.remote{color:var(--teal)}
+.src{font-size:12px;color:var(--muted)}
+.linkbtn{align-self:flex-start;background:none;border:0;padding:0;font:inherit;font-size:14px;color:var(--teal);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.empty{padding:40px 0;color:var(--muted);text-align:center}
+
+footer{border-top:1px solid var(--line);padding-top:18px;font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:6px;max-width:80ch}
+footer p{margin:0}
+@media (prefers-reduced-motion:reduce){.type{transition:none}}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <!-- HOME VIEW -->
+  <div class="view" id="home">
+    <header class="top">
+      <div class="intro">
+        <div class="eyebrow">NeurIPS 2026 · Sydney · 6–12 December</div>
+        <div class="titlerow"><h1>Come build AI in <em>Singapore</em></h1><a class="logolink" href="https://www.edb.gov.sg/" target="_blank" rel="noopener" aria-label="Developed by EDB. Visit the Singapore Economic Development Board website"><span class="by">Developed by EDB</span><img class="logo" src="edb-logo.png" alt="EDB Singapore" onerror="this.parentNode.remove()"></a></div>
+        <p class="lede">Technical AI roles open now at companies hiring in Singapore.</p>
+        <div class="facts">
+          <span>Data as of <b class="asof">–</b></span>
+          <span>Next refresh <b class="next">–</b></span>
+          <span>Singapore runs on <b>SGT (UTC+8)</b>, 3 hours behind Sydney</span>
+        </div>
+      </div>
+      <figure class="qrbox"><svg class="qr" viewBox="-2 -2 37 37" role="img" aria-label="QR code linking to this page" xmlns="http://www.w3.org/2000/svg"><rect x="-2" y="-2" width="37" height="37" fill="#ffffff"/><path d="M0,0h1v1h-1zM1,0h1v1h-1zM2,0h1v1h-1zM3,0h1v1h-1zM4,0h1v1h-1zM5,0h1v1h-1zM6,0h1v1h-1zM8,0h1v1h-1zM11,0h1v1h-1zM16,0h1v1h-1zM18,0h1v1h-1zM19,0h1v1h-1zM23,0h1v1h-1zM26,0h1v1h-1zM27,0h1v1h-1zM28,0h1v1h-1zM29,0h1v1h-1zM30,0h1v1h-1zM31,0h1v1h-1zM32,0h1v1h-1zM0,1h1v1h-1zM6,1h1v1h-1zM8,1h1v1h-1zM11,1h1v1h-1zM12,1h1v1h-1zM14,1h1v1h-1zM18,1h1v1h-1zM23,1h1v1h-1zM24,1h1v1h-1zM26,1h1v1h-1zM32,1h1v1h-1zM0,2h1v1h-1zM2,2h1v1h-1zM3,2h1v1h-1zM4,2h1v1h-1zM6,2h1v1h-1zM9,2h1v1h-1zM13,2h1v1h-1zM14,2h1v1h-1zM15,2h1v1h-1zM18,2h1v1h-1zM19,2h1v1h-1zM20,2h1v1h-1zM23,2h1v1h-1zM24,2h1v1h-1zM26,2h1v1h-1zM28,2h1v1h-1zM29,2h1v1h-1zM30,2h1v1h-1zM32,2h1v1h-1zM0,3h1v1h-1zM2,3h1v1h-1zM3,3h1v1h-1zM4,3h1v1h-1zM6,3h1v1h-1zM8,3h1v1h-1zM10,3h1v1h-1zM12,3h1v1h-1zM17,3h1v1h-1zM24,3h1v1h-1zM26,3h1v1h-1zM28,3h1v1h-1zM29,3h1v1h-1zM30,3h1v1h-1zM32,3h1v1h-1zM0,4h1v1h-1zM2,4h1v1h-1zM3,4h1v1h-1zM4,4h1v1h-1zM6,4h1v1h-1zM9,4h1v1h-1zM10,4h1v1h-1zM12,4h1v1h-1zM13,4h1v1h-1zM16,4h1v1h-1zM19,4h1v1h-1zM24,4h1v1h-1zM26,4h1v1h-1zM28,4h1v1h-1zM29,4h1v1h-1zM30,4h1v1h-1zM32,4h1v1h-1zM0,5h1v1h-1zM6,5h1v1h-1zM11,5h1v1h-1zM12,5h1v1h-1zM13,5h1v1h-1zM15,5h1v1h-1zM16,5h1v1h-1zM17,5h1v1h-1zM18,5h1v1h-1zM19,5h1v1h-1zM24,5h1v1h-1zM26,5h1v1h-1zM32,5h1v1h-1zM0,6h1v1h-1zM1,6h1v1h-1zM2,6h1v1h-1zM3,6h1v1h-1zM4,6h1v1h-1zM5,6h1v1h-1zM6,6h1v1h-1zM8,6h1v1h-1zM10,6h1v1h-1zM12,6h1v1h-1zM14,6h1v1h-1zM16,6h1v1h-1zM18,6h1v1h-1zM20,6h1v1h-1zM22,6h1v1h-1zM24,6h1v1h-1zM26,6h1v1h-1zM27,6h1v1h-1zM28,6h1v1h-1zM29,6h1v1h-1zM30,6h1v1h-1zM31,6h1v1h-1zM32,6h1v1h-1zM8,7h1v1h-1zM11,7h1v1h-1zM12,7h1v1h-1zM15,7h1v1h-1zM16,7h1v1h-1zM17,7h1v1h-1zM19,7h1v1h-1zM22,7h1v1h-1zM23,7h1v1h-1zM0,8h1v1h-1zM2,8h1v1h-1zM3,8h1v1h-1zM5,8h1v1h-1zM6,8h1v1h-1zM7,8h1v1h-1zM9,8h1v1h-1zM10,8h1v1h-1zM12,8h1v1h-1zM14,8h1v1h-1zM15,8h1v1h-1zM16,8h1v1h-1zM17,8h1v1h-1zM18,8h1v1h-1zM20,8h1v1h-1zM21,8h1v1h-1zM24,8h1v1h-1zM26,8h1v1h-1zM29,8h1v1h-1zM31,8h1v1h-1zM32,8h1v1h-1zM4,9h1v1h-1zM5,9h1v1h-1zM7,9h1v1h-1zM9,9h1v1h-1zM10,9h1v1h-1zM11,9h1v1h-1zM13,9h1v1h-1zM18,9h1v1h-1zM19,9h1v1h-1zM23,9h1v1h-1zM26,9h1v1h-1zM27,9h1v1h-1zM29,9h1v1h-1zM30,9h1v1h-1zM32,9h1v1h-1zM1,10h1v1h-1zM2,10h1v1h-1zM4,10h1v1h-1zM5,10h1v1h-1zM6,10h1v1h-1zM7,10h1v1h-1zM12,10h1v1h-1zM13,10h1v1h-1zM17,10h1v1h-1zM22,10h1v1h-1zM23,10h1v1h-1zM24,10h1v1h-1zM25,10h1v1h-1zM26,10h1v1h-1zM27,10h1v1h-1zM28,10h1v1h-1zM29,10h1v1h-1zM31,10h1v1h-1zM32,10h1v1h-1zM0,11h1v1h-1zM1,11h1v1h-1zM4,11h1v1h-1zM7,11h1v1h-1zM8,11h1v1h-1zM10,11h1v1h-1zM11,11h1v1h-1zM15,11h1v1h-1zM16,11h1v1h-1zM18,11h1v1h-1zM19,11h1v1h-1zM23,11h1v1h-1zM24,11h1v1h-1zM27,11h1v1h-1zM29,11h1v1h-1zM32,11h1v1h-1zM1,12h1v1h-1zM2,12h1v1h-1zM5,12h1v1h-1zM6,12h1v1h-1zM9,12h1v1h-1zM10,12h1v1h-1zM11,12h1v1h-1zM12,12h1v1h-1zM14,12h1v1h-1zM15,12h1v1h-1zM17,12h1v1h-1zM19,12h1v1h-1zM22,12h1v1h-1zM23,12h1v1h-1zM24,12h1v1h-1zM25,12h1v1h-1zM28,12h1v1h-1zM29,12h1v1h-1zM0,13h1v1h-1zM1,13h1v1h-1zM2,13h1v1h-1zM3,13h1v1h-1zM4,13h1v1h-1zM7,13h1v1h-1zM9,13h1v1h-1zM10,13h1v1h-1zM12,13h1v1h-1zM14,13h1v1h-1zM17,13h1v1h-1zM18,13h1v1h-1zM19,13h1v1h-1zM21,13h1v1h-1zM24,13h1v1h-1zM27,13h1v1h-1zM30,13h1v1h-1zM31,13h1v1h-1zM0,14h1v1h-1zM5,14h1v1h-1zM6,14h1v1h-1zM7,14h1v1h-1zM8,14h1v1h-1zM9,14h1v1h-1zM11,14h1v1h-1zM12,14h1v1h-1zM13,14h1v1h-1zM17,14h1v1h-1zM18,14h1v1h-1zM19,14h1v1h-1zM20,14h1v1h-1zM22,14h1v1h-1zM24,14h1v1h-1zM26,14h1v1h-1zM29,14h1v1h-1zM30,14h1v1h-1zM5,15h1v1h-1zM8,15h1v1h-1zM9,15h1v1h-1zM10,15h1v1h-1zM14,15h1v1h-1zM16,15h1v1h-1zM21,15h1v1h-1zM22,15h1v1h-1zM25,15h1v1h-1zM26,15h1v1h-1zM27,15h1v1h-1zM29,15h1v1h-1zM30,15h1v1h-1zM0,16h1v1h-1zM2,16h1v1h-1zM4,16h1v1h-1zM6,16h1v1h-1zM7,16h1v1h-1zM10,16h1v1h-1zM13,16h1v1h-1zM15,16h1v1h-1zM18,16h1v1h-1zM19,16h1v1h-1zM21,16h1v1h-1zM22,16h1v1h-1zM25,16h1v1h-1zM26,16h1v1h-1zM28,16h1v1h-1zM29,16h1v1h-1zM30,16h1v1h-1zM0,17h1v1h-1zM3,17h1v1h-1zM4,17h1v1h-1zM5,17h1v1h-1zM8,17h1v1h-1zM9,17h1v1h-1zM12,17h1v1h-1zM15,17h1v1h-1zM21,17h1v1h-1zM22,17h1v1h-1zM23,17h1v1h-1zM24,17h1v1h-1zM26,17h1v1h-1zM28,17h1v1h-1zM29,17h1v1h-1zM31,17h1v1h-1zM32,17h1v1h-1zM1,18h1v1h-1zM2,18h1v1h-1zM3,18h1v1h-1zM4,18h1v1h-1zM5,18h1v1h-1zM6,18h1v1h-1zM8,18h1v1h-1zM12,18h1v1h-1zM13,18h1v1h-1zM15,18h1v1h-1zM16,18h1v1h-1zM18,18h1v1h-1zM20,18h1v1h-1zM21,18h1v1h-1zM26,18h1v1h-1zM27,18h1v1h-1zM28,18h1v1h-1zM30,18h1v1h-1zM31,18h1v1h-1zM0,19h1v1h-1zM1,19h1v1h-1zM3,19h1v1h-1zM8,19h1v1h-1zM9,19h1v1h-1zM14,19h1v1h-1zM16,19h1v1h-1zM17,19h1v1h-1zM19,19h1v1h-1zM22,19h1v1h-1zM23,19h1v1h-1zM25,19h1v1h-1zM26,19h1v1h-1zM28,19h1v1h-1zM31,19h1v1h-1zM1,20h1v1h-1zM2,20h1v1h-1zM3,20h1v1h-1zM6,20h1v1h-1zM8,20h1v1h-1zM10,20h1v1h-1zM11,20h1v1h-1zM16,20h1v1h-1zM17,20h1v1h-1zM18,20h1v1h-1zM19,20h1v1h-1zM21,20h1v1h-1zM29,20h1v1h-1zM30,20h1v1h-1zM32,20h1v1h-1zM0,21h1v1h-1zM1,21h1v1h-1zM4,21h1v1h-1zM5,21h1v1h-1zM14,21h1v1h-1zM17,21h1v1h-1zM18,21h1v1h-1zM19,21h1v1h-1zM20,21h1v1h-1zM23,21h1v1h-1zM24,21h1v1h-1zM26,21h1v1h-1zM29,21h1v1h-1zM32,21h1v1h-1zM4,22h1v1h-1zM6,22h1v1h-1zM7,22h1v1h-1zM8,22h1v1h-1zM9,22h1v1h-1zM12,22h1v1h-1zM13,22h1v1h-1zM16,22h1v1h-1zM17,22h1v1h-1zM21,22h1v1h-1zM23,22h1v1h-1zM26,22h1v1h-1zM27,22h1v1h-1zM31,22h1v1h-1zM32,22h1v1h-1zM1,23h1v1h-1zM2,23h1v1h-1zM3,23h1v1h-1zM5,23h1v1h-1zM8,23h1v1h-1zM9,23h1v1h-1zM11,23h1v1h-1zM14,23h1v1h-1zM18,23h1v1h-1zM24,23h1v1h-1zM26,23h1v1h-1zM27,23h1v1h-1zM29,23h1v1h-1zM32,23h1v1h-1zM0,24h1v1h-1zM2,24h1v1h-1zM4,24h1v1h-1zM5,24h1v1h-1zM6,24h1v1h-1zM7,24h1v1h-1zM8,24h1v1h-1zM10,24h1v1h-1zM11,24h1v1h-1zM14,24h1v1h-1zM15,24h1v1h-1zM16,24h1v1h-1zM17,24h1v1h-1zM22,24h1v1h-1zM24,24h1v1h-1zM25,24h1v1h-1zM26,24h1v1h-1zM27,24h1v1h-1zM28,24h1v1h-1zM32,24h1v1h-1zM8,25h1v1h-1zM10,25h1v1h-1zM12,25h1v1h-1zM13,25h1v1h-1zM15,25h1v1h-1zM16,25h1v1h-1zM18,25h1v1h-1zM19,25h1v1h-1zM21,25h1v1h-1zM23,25h1v1h-1zM24,25h1v1h-1zM28,25h1v1h-1zM29,25h1v1h-1zM0,26h1v1h-1zM1,26h1v1h-1zM2,26h1v1h-1zM3,26h1v1h-1zM4,26h1v1h-1zM5,26h1v1h-1zM6,26h1v1h-1zM8,26h1v1h-1zM10,26h1v1h-1zM11,26h1v1h-1zM12,26h1v1h-1zM14,26h1v1h-1zM16,26h1v1h-1zM17,26h1v1h-1zM18,26h1v1h-1zM19,26h1v1h-1zM21,26h1v1h-1zM23,26h1v1h-1zM24,26h1v1h-1zM26,26h1v1h-1zM28,26h1v1h-1zM31,26h1v1h-1zM0,27h1v1h-1zM6,27h1v1h-1zM8,27h1v1h-1zM9,27h1v1h-1zM10,27h1v1h-1zM12,27h1v1h-1zM14,27h1v1h-1zM15,27h1v1h-1zM19,27h1v1h-1zM20,27h1v1h-1zM21,27h1v1h-1zM23,27h1v1h-1zM24,27h1v1h-1zM28,27h1v1h-1zM29,27h1v1h-1zM30,27h1v1h-1zM31,27h1v1h-1zM32,27h1v1h-1zM0,28h1v1h-1zM2,28h1v1h-1zM3,28h1v1h-1zM4,28h1v1h-1zM6,28h1v1h-1zM12,28h1v1h-1zM13,28h1v1h-1zM15,28h1v1h-1zM18,28h1v1h-1zM19,28h1v1h-1zM21,28h1v1h-1zM23,28h1v1h-1zM24,28h1v1h-1zM25,28h1v1h-1zM26,28h1v1h-1zM27,28h1v1h-1zM28,28h1v1h-1zM30,28h1v1h-1zM31,28h1v1h-1zM0,29h1v1h-1zM2,29h1v1h-1zM3,29h1v1h-1zM4,29h1v1h-1zM6,29h1v1h-1zM8,29h1v1h-1zM12,29h1v1h-1zM14,29h1v1h-1zM15,29h1v1h-1zM18,29h1v1h-1zM20,29h1v1h-1zM21,29h1v1h-1zM22,29h1v1h-1zM27,29h1v1h-1zM29,29h1v1h-1zM32,29h1v1h-1zM0,30h1v1h-1zM2,30h1v1h-1zM3,30h1v1h-1zM4,30h1v1h-1zM6,30h1v1h-1zM8,30h1v1h-1zM9,30h1v1h-1zM10,30h1v1h-1zM11,30h1v1h-1zM12,30h1v1h-1zM13,30h1v1h-1zM15,30h1v1h-1zM20,30h1v1h-1zM22,30h1v1h-1zM26,30h1v1h-1zM27,30h1v1h-1zM29,30h1v1h-1zM30,30h1v1h-1zM0,31h1v1h-1zM6,31h1v1h-1zM9,31h1v1h-1zM10,31h1v1h-1zM13,31h1v1h-1zM15,31h1v1h-1zM17,31h1v1h-1zM22,31h1v1h-1zM23,31h1v1h-1zM24,31h1v1h-1zM25,31h1v1h-1zM27,31h1v1h-1zM28,31h1v1h-1zM29,31h1v1h-1zM32,31h1v1h-1zM0,32h1v1h-1zM1,32h1v1h-1zM2,32h1v1h-1zM3,32h1v1h-1zM4,32h1v1h-1zM5,32h1v1h-1zM6,32h1v1h-1zM8,32h1v1h-1zM9,32h1v1h-1zM11,32h1v1h-1zM13,32h1v1h-1zM16,32h1v1h-1zM17,32h1v1h-1zM18,32h1v1h-1zM21,32h1v1h-1zM23,32h1v1h-1zM25,32h1v1h-1zM28,32h1v1h-1zM30,32h1v1h-1z" fill="#0F1C24"/></svg><figcaption>Scan to open this page on your phone</figcaption></figure>
+    </header>
+
+    <section class="summary" aria-label="Summary">
+      <div class="cobox"><span class="n" id="h-cos">0</span><div class="txt"><span class="l">companies hiring for technical AI roles in Singapore</span><span class="s">Ranging from AI-native firms to MNCs to startups</span></div></div>
+      <div class="stats">
+        <div class="stat"><span class="n" id="s-sg">0</span><span class="l">Technical roles based in Singapore</span><span class="s" id="s-sg-sub"></span></div>
+        <div class="stat"><span class="n" id="s-remote">0</span><span class="l">Remote roles available</span><span class="s" id="s-remote-sub"></span></div>
+      </div>
+    </section>
+
+    <section class="sec" aria-labelledby="ty-h">
+      <div class="sec-head"><h2 id="ty-h">Roles by type</h2><p>Select a type to see every company hiring for it.</p></div>
+      <div class="typelist" id="types"></div>
+    </section>
+
+    <section class="sec" aria-labelledby="co-h">
+      <div class="sec-head"><h2 id="co-h">Companies hiring for AI roles</h2><p><span id="co-n"></span>. Each opens its official careers page.</p></div>
+      <div class="cofilter"><label for="hctype">Company type</label><select id="hctype"><option value="all">All company types</option></select></div>
+      <div class="cos" id="cos"></div>
+    </section>
+  </div>
+
+  <!-- ROLE TYPE VIEW -->
+  <div class="view" id="typeview" hidden>
+    <a class="back" href="#">&larr; All role types</a>
+    <div class="tv-head">
+      <div class="eyebrow">Come build AI in Singapore · Data as of <span class="asof">–</span></div>
+      <h1 id="tv-title"></h1>
+      <p class="lede" id="tv-sub"></p>
+      <nav class="typenav" id="typenav" aria-label="Other role types"></nav>
+    </div>
+    <div class="toolbar">
+      <input id="q" class="search" type="search" placeholder="Search a company or job title" aria-label="Search companies and job titles">
+      <div class="chips" role="group" aria-label="Location">
+        <button class="chip" type="button" data-f="all" aria-pressed="true">All</button>
+        <button class="chip" type="button" data-f="Singapore" aria-pressed="false">Singapore</button>
+        <button class="chip" type="button" data-f="Remote" aria-pressed="false">Remote</button>
+      </div>
+      <select id="ctype" aria-label="Filter by company type"><option value="all">All company types</option></select>
+      <div class="showing" id="showing" aria-live="polite"></div>
+    </div>
+    <div class="groups" id="grid"></div>
+  </div>
+
+  <footer>
+    <p id="rule"></p>
+    <p id="sources"></p>
+    <p>Technical roles only. Titles are listed as each company posts them; role types are grouped from those titles. Openings change daily, so each company link goes to its official careers page for the current list.</p>
+    <p>Prepared by the Singapore Economic Development Board (EDB).</p>
+  </footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  var D = window.DASHBOARD_DATA || {companies:[]};
+  var C = D.companies || [];
+  var $ = function(id){return document.getElementById(id)};
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]})}
+  function fmt(d){var m=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],p=String(d).split("-");return p.length===3?(+p[2])+" "+m[+p[1]-1]+" "+p[0]:d}
+  function slug(s){return s.toLowerCase().replace(/&/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")}
+  var DESC={"Applied AI & Deployment":"Forward-deployed and applied AI engineers who build with customers",
+    "Infrastructure & Security":"Compute, cloud, platform, reliability and security engineers",
+    "Machine Learning & Data":"ML, algorithm and LLM engineers, data scientists and data engineers",
+    "Research":"Research scientists, research engineers and research interns",
+    "Software & Hardware Engineering":"Backend, frontend, full-stack, mobile, test and hardware engineers",
+    "Solutions & Support Engineering":"Solutions architects, field, sales and support engineers"};
+  var CATS=(D.categories||[]).slice().sort(function(a,b){return a.localeCompare(b)});
+  var BYSLUG={}; CATS.forEach(function(k){BYSLUG[slug(k)]=k});
+  var state={q:"", f:"all", ct:"all", open:{}};
+
+  // Fill shared text
+  document.querySelectorAll(".asof").forEach(function(e){e.textContent=D.as_of||"–"});
+  document.querySelectorAll(".next").forEach(function(e){e.textContent=D.next_refresh||"–"});
+  $("rule").textContent=D.rule||""; $("sources").textContent=D.sources||"";
+
+  // Home: stats
+  var sg=0, rem=0, sgCos={}, remCos={};
+  C.forEach(function(c){c.roles.forEach(function(r){if(r.location==="Remote"){rem++;remCos[c.name]=1}else{sg++;sgCos[c.name]=1}})});
+  var nsg=Object.keys(sgCos).length, nrem=Object.keys(remCos).length;
+  $("h-cos").textContent=nsg; 
+  $("s-sg").textContent=sg; $("s-remote").textContent=rem;
+  $("s-sg-sub").textContent="across "+CATS.length+" role types";
+  $("s-remote-sub").textContent="at "+nrem+" compan"+(nrem===1?"y":"ies")+", open to candidates in Singapore";
+
+  // Home: role types
+  var stats=CATS.map(function(k){var n=0,cs=0;C.forEach(function(c){var m=c.roles.filter(function(r){return r.cat===k}).length;n+=m;if(m)cs++;});return {k:k,n:n,cs:cs}});
+  var max=Math.max.apply(null,stats.map(function(s){return s.n}).concat([1]));
+  $("types").innerHTML=stats.map(function(s){
+    return '<a class="type" href="#'+slug(s.k)+'">'+
+      '<span class="row1"><span class="nm">'+esc(s.k)+'</span><span class="ct">'+s.n+'</span></span>'+
+      '<span class="lbl">roles open</span>'+
+      '<span class="eg"><span class="egl">e.g.</span>'+((D.examples||{})[s.k]||[]).map(function(x){return '<span class="tag">'+esc(x)+'</span>'}).join("")+'</span>'+
+      '<span class="go">View roles &rarr;</span></a>';
+  }).join("");
+
+  // Company types, A-Z; companies A-Z within each type
+  var TYPES=(D.company_types||[]).slice().sort(function(a,b){return a.localeCompare(b)});
+  function byName(a,b){return a.name.localeCompare(b.name,undefined,{sensitivity:"base"})}
+  TYPES.forEach(function(ty){var o=document.createElement("option");o.value=ty;o.textContent=ty;$("ctype").appendChild(o)});
+  function groupHead(name,n,unit){return '<div class="ghead"><h3>'+esc(name)+'</h3><span>'+n+' '+unit+'</span></div>'}
+
+  // Home: company list grouped by type, with a company type filter
+  TYPES.forEach(function(ty){var o=document.createElement("option");o.value=ty;o.textContent=ty;$("hctype").appendChild(o)});
+  function renderCos(){ var sel=$("hctype").value;
+    var list=C.filter(function(c){return sel==="all"||c.type===sel}).sort(byName);
+    $("co-n").textContent=list.length+" compan"+(list.length===1?"y":"ies")+(sel==="all"?", A to Z":" in "+sel);
+    $("cos").innerHTML='<div class="cogrid">'+list.map(function(c){
+      return '<a href="'+esc(c.careers_url)+'" target="_blank" rel="noopener"><span>'+esc(c.name)+'</span></a>';
+    }).join("")+'</div>';
+  }
+  $("hctype").addEventListener("change",renderCos); renderCos();
+
+  // Type view
+  function renderType(k){
+    var all=C.map(function(c){return {c:c,roles:c.roles.filter(function(r){return r.cat===k})}}).filter(function(x){return x.roles.length});
+    var n=all.reduce(function(a,x){return a+x.roles.length},0);
+    $("tv-title").textContent=k;
+    $("tv-sub").textContent=n+" open role"+(n===1?"":"s")+" at "+all.length+" compan"+(all.length===1?"y":"ies")+". "+(DESC[k]||"")+".";
+    $("typenav").innerHTML=CATS.map(function(o){return '<a href="#'+slug(o)+'"'+(o===k?' aria-current="page"':'')+'>'+esc(o)+'</a>'}).join("");
+    var q=state.q.trim().toLowerCase(), rows=[], shown=0;
+    all.forEach(function(x){
+      if(state.ct!=="all"&&x.c.type!==state.ct) return;
+      var roles=x.roles.filter(function(r){return state.f==="all"||r.location===state.f});
+      if(q && x.c.name.toLowerCase().indexOf(q)<0) roles=roles.filter(function(r){return r.title.toLowerCase().indexOf(q)>-1});
+      if(roles.length){rows.push({c:x.c,roles:roles}); shown+=roles.length;}
+    });
+    rows.sort(function(a,b){return byName(a.c,b.c)});
+    $("showing").textContent="Showing "+shown+" role"+(shown===1?"":"s")+" at "+rows.length+" compan"+(rows.length===1?"y":"ies");
+    if(!rows.length){$("grid").innerHTML='<div class="empty">No roles match these filters. Try All locations, All company types or a broader search.</div>';return;}
+    function card(x){
+      var c=x.c, id=slug(c.name), open=state.open[id], LIM=6, vis=open?x.roles:x.roles.slice(0,LIM);
+      return '<article class="card">'+
+        '<div class="card-top"><div class="co"><a href="'+esc(c.careers_url)+'" target="_blank" rel="noopener">'+esc(c.name)+'</a>'+
+        '<span class="meta">'+esc(c.segment)+' · HQ '+esc(c.hq)+'</span></div>'+
+        '<div class="count"><b>'+x.roles.length+'</b><span>role'+(x.roles.length===1?'':'s')+'</span></div></div>'+
+        '<ul class="roles">'+vis.map(function(r){var t=r.url?'<a href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(r.title)+'</a>':esc(r.title);
+          return '<li><span class="t">'+t+'</span><span class="loc'+(r.location==="Remote"?' remote':'')+'">'+esc(r.location)+'</span></li>'}).join("")+'</ul>'+
+        (x.roles.length>LIM?'<button class="linkbtn" type="button" data-toggle="'+id+'">'+(open?"Show fewer":"Show all "+x.roles.length+" roles")+'</button>':'')+
+        '<div class="src">'+(c.verified?'Checked on careers site · '+fmt(c.verified):'From public job listings · '+esc(D.as_of))+'</div>'+
+        '</article>';
+    }
+    $("grid").innerHTML=TYPES.map(function(ty){
+      var g=rows.filter(function(x){return x.c.type===ty}); if(!g.length) return "";
+      var nr=g.reduce(function(a,x){return a+x.roles.length},0);
+      return '<section class="group">'+groupHead(ty,g.length+" compan"+(g.length===1?"y":"ies")+" · "+nr,"role"+(nr===1?"":"s"))+'<div class="grid">'+g.map(card).join("")+'</div></section>';
+    }).join("");
+  }
+
+  function route(){
+    var k=BYSLUG[(location.hash||"").replace(/^#/,"")];
+    $("home").hidden=!!k; $("typeview").hidden=!k;
+    if(k){state.q="";$("q").value="";state.f="all";state.ct="all";$("ctype").value="all";state.open={};
+      document.querySelectorAll(".chip").forEach(function(x){x.setAttribute("aria-pressed",x.getAttribute("data-f")==="all"?"true":"false")});
+      renderType(k);}
+    window.scrollTo(0,0);
+  }
+  function cur(){return BYSLUG[(location.hash||"").replace(/^#/,"")]}
+  $("q").addEventListener("input",function(e){state.q=e.target.value;renderType(cur())});
+  $("ctype").addEventListener("change",function(e){state.ct=e.target.value;renderType(cur())});
+  document.querySelectorAll(".chip").forEach(function(b){b.addEventListener("click",function(){
+    state.f=b.getAttribute("data-f");
+    document.querySelectorAll(".chip").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});
+    renderType(cur());})});
+  $("grid").addEventListener("click",function(e){
+    var t=e.target.closest("[data-toggle]"); if(!t) return;
+    var id=t.getAttribute("data-toggle"); state.open[id]=!state.open[id]; renderType(cur());
+  });
+  window.addEventListener("hashchange",route);
+  route();
+})();
+</script>
+</body>
+</html>
