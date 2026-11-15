@@ -1,0 +1,61 @@
+# Copy this file into the edb-disg/come-build-ai-in-singapore repo at:
+#   .github/workflows/sync-data.yml
+# It pulls data.js from shaoweikong95/come-build-ai-in-singapore (where the
+# scheduled Claude task pushes each recount) and commits it to edb-disg if it changed.
+# If the source repo is private, add a repo secret SOURCE_TOKEN (fine-grained token,
+# read-only "Contents" on shaoweikong95/come-build-ai-in-singapore).
+
+name: Sync dashboard data
+
+on:
+  schedule:
+    - cron: "17 */2 * * *"   # every 2 hours
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-data
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download data.js from source repo
+        env:
+          SOURCE_TOKEN: ${{ secrets.SOURCE_TOKEN }}
+        run: |
+          set -euo pipefail
+          URL="https://api.github.com/repos/shaoweikong95/come-build-ai-in-singapore/contents/data.js?ref=main"
+          AUTH=()
+          if [ -n "${SOURCE_TOKEN:-}" ]; then AUTH=(-H "Authorization: Bearer ${SOURCE_TOKEN}"); fi
+          curl -fsSL "${AUTH[@]}" -H "Accept: application/vnd.github.raw" "$URL" -o /tmp/data.js
+
+      - name: Validate data.js
+        run: |
+          node -e '
+            global.window = {};
+            require("/tmp/data.js");
+            const d = window.DASHBOARD_DATA;
+            if (!d || !Array.isArray(d.companies) || d.companies.length < 10) throw new Error("data.js looks wrong");
+            for (const c of d.companies) {
+              if (!c.name || !c.careers_url || !Array.isArray(c.roles)) throw new Error("bad company: " + JSON.stringify(c).slice(0, 120));
+            }
+            console.log("OK:", d.as_of, d.companies.length, "companies");
+          '
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          if cmp -s /tmp/data.js data.js; then echo "No change"; exit 0; fi
+          cp /tmp/data.js data.js
+          AS_OF=$(node -e 'global.window={};require("./data.js");console.log(window.DASHBOARD_DATA.as_of)')
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.js
+          git commit -m "Sync dashboard data (${AS_OF})"
+          git push

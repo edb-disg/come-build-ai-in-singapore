@@ -1,12 +1,12 @@
 // Dashboard data. Edit this file to update roles; the page reads it on load.
 window.DASHBOARD_DATA = {
- "as_of": "14 Nov 2026",
+ "as_of": "15 Nov 2026",
  "next_refresh": "4 Dec 2026",
  "rule": "Roles open to people based in Singapore are listed first. Where a company has none, its remote roles are listed instead.",
  "companies": [
   {
    "name": "ADVANCE.AI",
-   "careers_url": "https://advance.ai/",
+   "careers_url": "https://advance.ai/careers",
    "segment": "AI for identity & risk",
    "hq": "Singapore",
    "singapore_office": true,
@@ -47,7 +47,8 @@ window.DASHBOARD_DATA = {
      "cat": "Software & Hardware Engineering"
     }
    ],
-   "type": "AI for finance & security"
+   "type": "AI for finance & security",
+   "stale": true
   },
   {
    "name": "Agoda",
@@ -62,11 +63,12 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Machine Learning & Data"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "AI Rudder",
-   "careers_url": "https://www.airudder.com/",
+   "careers_url": "https://www.airudder.com/careers",
    "segment": "Voice AI agents",
    "hq": "Singapore",
    "singapore_office": true,
@@ -77,7 +79,8 @@ window.DASHBOARD_DATA = {
      "cat": "Applied AI & Deployment"
     }
    ],
-   "type": "Voice AI"
+   "type": "Voice AI",
+   "stale": true
   },
   {
    "name": "Ailytics",
@@ -117,7 +120,8 @@ window.DASHBOARD_DATA = {
      "cat": "Applied AI & Deployment"
     }
    ],
-   "type": "AI for science, health & industry"
+   "type": "AI for science, health & industry",
+   "stale": true
   },
   {
    "name": "Airwallex",
@@ -157,11 +161,12 @@ window.DASHBOARD_DATA = {
      "cat": "Machine Learning & Data"
     }
    ],
-   "type": "AI for finance & security"
+   "type": "AI for finance & security",
+   "stale": true
   },
   {
    "name": "Alibaba Cloud",
-   "careers_url": "https://talent.alibaba.com/",
+   "careers_url": "https://careers.alibaba.com/",
    "segment": "Cloud & foundation models (Qwen)",
    "hq": "Hangzhou",
    "singapore_office": true,
@@ -182,7 +187,8 @@ window.DASHBOARD_DATA = {
      "cat": "Machine Learning & Data"
     }
    ],
-   "type": "AI cloud & inference"
+   "type": "AI cloud & inference",
+   "stale": true
   },
   {
    "name": "Amazon Web Services (AI)",
@@ -212,12 +218,13 @@ window.DASHBOARD_DATA = {
      "cat": "Software & Hardware Engineering"
     }
    ],
-   "type": "AI cloud & inference"
+   "type": "AI cloud & inference",
+   "stale": true
   },
   {
    "name": "AMD",
    "type": "AI compute & chips",
-   "careers_url": "https://careers.amd.com/careers-home/jobs?location=Singapore",
+   "careers_url": "https://careers.amd.com/",
    "segment": "AI chips",
    "hq": "Santa Clara",
    "singapore_office": true,
@@ -237,7 +244,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Software & Hardware Engineering"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "AMI Labs",
@@ -249,29 +257,29 @@ window.DASHBOARD_DATA = {
     {
      "title": "AMI Scientist",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/ami/da976389-9875-4eb6-b866-8097baed3178",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://jobs.ashbyhq.com/ami/da976389-9875-4eb6-b866-8097baed3178"
     },
     {
      "title": "AMI Research Engineer",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/ami/df8b17c5-97e6-49e7-abb9-c21a39e4162a",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://jobs.ashbyhq.com/ami/df8b17c5-97e6-49e7-abb9-c21a39e4162a"
     },
     {
      "title": "AMI Software Engineer",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/ami/9f59ac61-f20b-4d33-9343-9603f693523f",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://jobs.ashbyhq.com/ami/9f59ac61-f20b-4d33-9343-9603f693523f"
     },
     {
      "title": "AMI Scientist - Geometry and 3D Vision",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/ami/0d7332d8-b8e7-40d3-89b6-dfc02b40bfa2",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://jobs.ashbyhq.com/ami/0d7332d8-b8e7-40d3-89b6-dfc02b40bfa2"
     }
    ],
-   "verified": "2026-11-14",
+   "verified": "2026-11-15",
    "type": "Frontier AI labs"
   },
   {
@@ -284,17 +292,17 @@ window.DASHBOARD_DATA = {
     {
      "title": "Regional Research Economist, Economic Research",
      "location": "Singapore",
-     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5231205008",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5231205008"
     }
    ],
-   "verified": "2026-11-14",
+   "verified": "2026-11-15",
    "type": "Frontier AI labs"
   },
   {
    "name": "AssemblyAI",
    "type": "Voice AI",
-   "careers_url": "https://job-boards.greenhouse.io/assemblyai",
+   "careers_url": "https://www.assemblyai.com/careers",
    "segment": "Speech AI",
    "hq": "San Francisco",
    "singapore_office": false,
@@ -309,12 +317,13 @@ window.DASHBOARD_DATA = {
      "location": "Remote",
      "cat": "Research"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Augmentus",
    "type": "Robotics & autonomous systems",
-   "careers_url": "https://www.augmentus.tech/",
+   "careers_url": "https://www.augmentus.tech/careers",
    "segment": "AI robotics software",
    "hq": "Singapore",
    "singapore_office": true,
@@ -354,7 +363,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Software & Hardware Engineering"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "AvePoint",
@@ -366,371 +376,365 @@ window.DASHBOARD_DATA = {
     {
      "title": "Support Engineer (SharePoint Specialist)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6497723",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6497723"
     },
     {
      "title": "Application Support Engineer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7928623",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7928623"
     },
     {
      "title": "Application Support Engineer (3–5 years exp.)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8110725",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8110725"
     },
     {
      "title": "Software Engineer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=5825284",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=5825284"
     },
     {
      "title": "Technical Support Engineer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=5927833",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=5927833"
     },
     {
      "title": "Data Engineer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6035580",
-     "cat": "Machine Learning & Data"
+     "cat": "Machine Learning & Data",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6035580"
     },
     {
      "title": "Test Automation Engineer (MAS) #68",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6183734",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6183734"
     },
     {
      "title": "IT Infrastructure Engineer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6203784",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6203784"
     },
     {
      "title": "AWS Cloud Engineer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6233848",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6233848"
     },
     {
      "title": "Software Quality Engineer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6250265",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6250265"
     },
     {
      "title": "Solution Architect",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6255407",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6255407"
     },
     {
      "title": "Backend Developer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6290872",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6290872"
     },
     {
      "title": "DevOps Engineer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6296624",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6296624"
     },
     {
      "title": "Java Developer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6296649",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6296649"
     },
     {
      "title": "Data Engineer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6339041",
-     "cat": "Machine Learning & Data"
+     "cat": "Machine Learning & Data",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6339041"
     },
     {
      "title": "Python Developer & Tester",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6339045",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6339045"
     },
     {
      "title": "Database Administrator",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6339047",
-     "cat": "Machine Learning & Data"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6339047"
     },
     {
      "title": "Salesforce Engineer (COTS)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6491908",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6491908"
     },
     {
      "title": "Service Engineer (Cloud & Infrastructure)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6532048",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6532048"
     },
     {
      "title": "Java Developer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6603726",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6603726"
     },
     {
      "title": "Solution Architect (#65)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6648867",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6648867"
     },
     {
      "title": "Senior Software Quality Engineer (#63)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6648873",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6648873"
     },
     {
      "title": "Sensor/IOT Engineer (GovTech)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6706369",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6706369"
     },
     {
      "title": "Windows and Virtualization Support Engineer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6710207",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6710207"
     },
     {
      "title": "OpenStack Engineer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6787743",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6787743"
     },
     {
      "title": "Unix Engineer and SRE",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6787751",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6787751"
     },
     {
      "title": "Test Engineer and SRE",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6787757",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6787757"
     },
     {
      "title": "Site Reliability Engineer (SRE) (GovTech)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6788033",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6788033"
     },
     {
      "title": "CStack Security Engineer (GovTech)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6788042",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6788042"
     },
     {
      "title": "ServiceNow Solution Architect",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6788052",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6788052"
     },
     {
      "title": "Solution Architect Cum Technical Lead",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6943768",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6943768"
     },
     {
      "title": "Software Developer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6943970",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=6943970"
     },
     {
      "title": "Data Engineer (Managed Service)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7016137",
-     "cat": "Machine Learning & Data"
+     "cat": "Machine Learning & Data",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7016137"
     },
     {
      "title": "Salesforce Marketing Cloud (SFMC) Specialist",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7303017",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7303017"
     },
     {
      "title": "Tester (Test Automation Focus - Accenture)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7566026",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7566026"
     },
     {
      "title": "Senior Developer (Salesforce)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7593750",
-     "cat": "Software & Hardware Engineering"
-    },
-    {
-     "title": "Software Engineer (Atlassian Cloud Project | Min. 5 Yrs Exp)",
-     "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7699359",
-     "cat": "Infrastructure & Security"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7593750"
     },
     {
      "title": "Software Engineer / Platform Engineer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7738463",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7738463"
     },
     {
      "title": "Salesforce Administrator",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7747798",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7747798"
     },
     {
      "title": "PowerBuilder Developer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7755781",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7755781"
     },
     {
      "title": "Senior Splunk Engineer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7765479",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7765479"
     },
     {
      "title": "Mainframe Engineer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7765547",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7765547"
     },
     {
      "title": "PeopleSoft Tech Lead / Senior Developer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7765554",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7765554"
     },
     {
      "title": "Low Code Engineer (OutSystems)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7772156",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7772156"
     },
     {
      "title": "DevOps Engineer (GovTech)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7785115",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7785115"
     },
     {
      "title": "Data Scientist",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7809901",
-     "cat": "Machine Learning & Data"
+     "cat": "Machine Learning & Data",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7809901"
     },
     {
      "title": "Software Quality Engineer (Managed Service)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7824679",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7824679"
     },
     {
      "title": "IT Infra Engineer (Collaboration)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7854824",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7854824"
     },
     {
      "title": "IT Infra Engineer (Endpoint Management)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7854825",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7854825"
     },
     {
      "title": "IT Infra Engineer (Identity and Security)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7854834",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7854834"
     },
     {
      "title": "Senior Software Engineer (Managed Services)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7855901",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7855901"
     },
     {
      "title": "Software Engineer (Jira)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7936095",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7936095"
     },
     {
      "title": "Platform Operations Engineer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7936100",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7936100"
     },
     {
      "title": "Software Engineer (SRE)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7936625",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=7936625"
     },
     {
      "title": "AI Engineer (Managed Services)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8029829",
-     "cat": "Applied AI & Deployment"
+     "cat": "Applied AI & Deployment",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8029829"
     },
     {
      "title": "Data Architect (Managed Services)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8029830",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8029830"
     },
     {
      "title": "OutSystems Engineer",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8225890",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8225890"
     },
     {
      "title": ".NET Full Stack Developer (Managed Services)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8255699",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8255699"
     },
     {
      "title": "Senior Outsystem Developer (Managed Services)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8263532",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8263532"
     },
     {
      "title": "PeopleSoft Tech Lead / Senior Developer (New)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8305462",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8305462"
     },
     {
      "title": "Senior Developer (Power Platform)",
      "location": "Singapore",
-     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8326201",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.avepoint.com/careers/job-detail?gh_jid=8326201"
     }
    ],
-   "verified": "2026-11-14",
+   "verified": "2026-11-15",
    "type": "Enterprise AI & data platforms"
   },
   {
@@ -751,12 +755,13 @@ window.DASHBOARD_DATA = {
      "cat": "Research"
     }
    ],
-   "type": "AI cloud & inference"
+   "type": "AI cloud & inference",
+   "stale": true
   },
   {
    "name": "Bifrost AI",
    "type": "AI for science, health & industry",
-   "careers_url": "https://www.bifrost.ai/",
+   "careers_url": "https://www.bifrost.ai/careers",
    "segment": "Synthetic data for perception",
    "hq": "Singapore",
    "singapore_office": true,
@@ -791,7 +796,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Solutions & Support Engineering"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Binance",
@@ -831,11 +837,12 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Software & Hardware Engineering"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Bot MD",
-   "careers_url": "https://www.botmd.io/",
+   "careers_url": "https://www.botmd.io/careers",
    "segment": "Healthcare AI",
    "hq": "Singapore",
    "singapore_office": true,
@@ -851,7 +858,8 @@ window.DASHBOARD_DATA = {
      "cat": "Software & Hardware Engineering"
     }
    ],
-   "type": "AI for science, health & industry"
+   "type": "AI for science, health & industry",
+   "stale": true
   },
   {
    "name": "Botsync",
@@ -891,7 +899,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Software & Hardware Engineering"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "ByteDance (Seed)",
@@ -941,12 +950,13 @@ window.DASHBOARD_DATA = {
      "cat": "Research"
     }
    ],
-   "type": "Frontier AI labs"
+   "type": "Frontier AI labs",
+   "stale": true
   },
   {
    "name": "Carousell",
    "type": "Consumer & e-commerce AI",
-   "careers_url": "https://jobs.smartrecruiters.com/carousellgroup",
+   "careers_url": "https://careers.carousell.com/",
    "segment": "Marketplace AI",
    "hq": "Singapore",
    "singapore_office": true,
@@ -966,7 +976,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Applied AI & Deployment"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Causal Labs",
@@ -978,74 +989,68 @@ window.DASHBOARD_DATA = {
     {
      "title": "Member of Technical Staff — Training Infrastructure",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/causal/1ff002cd-87af-4dc8-88c4-786e4e03475d",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://jobs.ashbyhq.com/causal/1ff002cd-87af-4dc8-88c4-786e4e03475d"
     },
     {
      "title": "Member of Technical Staff — Data Infrastructure",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/causal/efe237b6-c880-4249-ab9e-85bf1bd29d80",
-     "cat": "Machine Learning & Data"
+     "cat": "Infrastructure & Security",
+     "url": "https://jobs.ashbyhq.com/causal/efe237b6-c880-4249-ab9e-85bf1bd29d80"
     },
     {
      "title": "Member of Technical Staff — Data Ingestion & Quality",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/causal/75465d66-8993-444a-821b-73b14bbe5a5f",
-     "cat": "Machine Learning & Data"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://jobs.ashbyhq.com/causal/75465d66-8993-444a-821b-73b14bbe5a5f"
     },
     {
      "title": "Member of Technical Staff — Inference Infrastructure",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/causal/6905f848-67d4-4bb8-93c8-24262967b60d",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://jobs.ashbyhq.com/causal/6905f848-67d4-4bb8-93c8-24262967b60d"
     },
     {
      "title": "Member of Technical Staff — Product Engineering",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/causal/2cb5da89-e32f-4132-9980-c06bc221f2b6",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://jobs.ashbyhq.com/causal/2cb5da89-e32f-4132-9980-c06bc221f2b6"
     },
     {
      "title": "Member of Technical Staff — Deployment Engineering",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/causal/f5b4dc11-806f-4c98-b0e1-811ec337109e",
-     "cat": "Applied AI & Deployment"
-    },
-    {
-     "title": "Member of Operations Staff — Deployment Strategy",
-     "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/causal/4e621c74-66c3-43a7-9720-be794095fc5f",
-     "cat": "Applied AI & Deployment"
+     "cat": "Applied AI & Deployment",
+     "url": "https://jobs.ashbyhq.com/causal/f5b4dc11-806f-4c98-b0e1-811ec337109e"
     },
     {
      "title": "Member of Technical Staff — Research, Physics",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/causal/43f6132e-161a-4632-b0ce-17e4efc27f46",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://jobs.ashbyhq.com/causal/43f6132e-161a-4632-b0ce-17e4efc27f46"
     },
     {
      "title": "Member of Technical Staff — ML Research, Interpretability",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/causal/fa803558-a6b4-4721-9909-4295fb3256b0",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://jobs.ashbyhq.com/causal/fa803558-a6b4-4721-9909-4295fb3256b0"
     },
     {
      "title": "Member of Technical Staff — Research, Operations & Decision Science",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/causal/84df5ed7-325a-4e75-bd20-db6e2f4f7e07",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://jobs.ashbyhq.com/causal/84df5ed7-325a-4e75-bd20-db6e2f4f7e07"
     },
     {
      "title": "Member of Technical Staff — ML Research, Multimodal",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/causal/8af4b1fc-8d7f-464d-afea-47a738f889ef",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://jobs.ashbyhq.com/causal/8af4b1fc-8d7f-464d-afea-47a738f889ef"
     },
     {
      "title": "Member of Technical Staff — ML Research, Planning",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/causal/dae77f7e-d006-40a2-a9b4-a52663ce408d",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://jobs.ashbyhq.com/causal/dae77f7e-d006-40a2-a9b4-a52663ce408d"
     }
    ],
    "verified": "2026-11-12",
@@ -1074,11 +1079,12 @@ window.DASHBOARD_DATA = {
      "cat": "Solutions & Support Engineering"
     }
    ],
-   "type": "AI compute & chips"
+   "type": "AI compute & chips",
+   "stale": true
   },
   {
    "name": "ChemLex",
-   "careers_url": "https://www.chemlex.com/",
+   "careers_url": "https://www.chemlex.com/careers",
    "segment": "AI for science (self-driving lab)",
    "hq": "Singapore",
    "singapore_office": true,
@@ -1089,7 +1095,8 @@ window.DASHBOARD_DATA = {
      "cat": "Research"
     }
    ],
-   "type": "AI for science, health & industry"
+   "type": "AI for science, health & industry",
+   "stale": true
   },
   {
    "name": "Cognition",
@@ -1101,23 +1108,23 @@ window.DASHBOARD_DATA = {
     {
      "title": "AI Support Engineer",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/cognition/ca278de0-e299-4f46-9bd9-b95aed6970c3",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://jobs.ashbyhq.com/cognition/ca278de0-e299-4f46-9bd9-b95aed6970c3"
     },
     {
      "title": "Applied AI Engineer - APAC",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/cognition/12250aa8-c371-440c-8189-04872fd43eeb",
-     "cat": "Applied AI & Deployment"
+     "cat": "Applied AI & Deployment",
+     "url": "https://jobs.ashbyhq.com/cognition/12250aa8-c371-440c-8189-04872fd43eeb"
     },
     {
      "title": "Forward Deployed Engineer - APAC",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/cognition/b73fd66a-f43b-4240-95c2-7a76b4ffb0c6",
-     "cat": "Applied AI & Deployment"
+     "cat": "Applied AI & Deployment",
+     "url": "https://jobs.ashbyhq.com/cognition/b73fd66a-f43b-4240-95c2-7a76b4ffb0c6"
     }
    ],
-   "verified": "2026-11-14",
+   "verified": "2026-11-15",
    "type": "AI coding tools"
   },
   {
@@ -1153,7 +1160,8 @@ window.DASHBOARD_DATA = {
      "cat": "Software & Hardware Engineering"
     }
    ],
-   "type": "Frontier AI labs"
+   "type": "Frontier AI labs",
+   "stale": true
   },
   {
    "name": "CoreWeave",
@@ -1213,7 +1221,8 @@ window.DASHBOARD_DATA = {
      "cat": "Infrastructure & Security"
     }
    ],
-   "type": "AI cloud & inference"
+   "type": "AI cloud & inference",
+   "stale": true
   },
   {
    "name": "Cursor (Anysphere)",
@@ -1225,41 +1234,29 @@ window.DASHBOARD_DATA = {
     {
      "title": "Field Engineer - ASEAN",
      "location": "Singapore",
-     "url": "https://cursor.com/careers/field-engineer-asean",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://cursor.com/careers/field-engineer-asean"
     },
     {
-     "title": "Field Engineer, Commercial",
+     "title": "Regional Director, Forward Deployed Engineering (Singapore)",
      "location": "Singapore",
-     "url": "https://cursor.com/careers/field-engineer-commercial-singapore",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Applied AI & Deployment",
+     "url": "https://cursor.com/careers/regional-director-forward-deployed-engineering-singapore"
     },
     {
-     "title": "Forward Deployed Engineer",
+     "title": "Technical Support Engineering Manager, Singapore, Australia, New Zealand, Indonesia",
      "location": "Singapore",
-     "url": "https://cursor.com/careers/forward-deployed-engineer-australia-singapore",
-     "cat": "Applied AI & Deployment"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://cursor.com/careers/technical-support-engineering-manager-singapore-australia-new-zealand-indonesia"
     },
     {
-     "title": "Forward Deployed Strategist",
+     "title": "Forward Deployed Engineer (Australia/Singapore)",
      "location": "Singapore",
-     "url": "https://cursor.com/careers/forward-deployed-strategist-australia-singapore",
-     "cat": "Applied AI & Deployment"
-    },
-    {
-     "title": "Regional Director, Forward Deployed Engineering",
-     "location": "Singapore",
-     "url": "https://cursor.com/careers/regional-director-forward-deployed-engineering-mumbai-new-delhi-singapore",
-     "cat": "Applied AI & Deployment"
-    },
-    {
-     "title": "Technical Support Engineering Leader, Singapore, Australia, New Zealand, Indonesia",
-     "location": "Singapore",
-     "url": "https://cursor.com/careers/technical-support-engineering-leader-singapore-australia-new-zealand-indonesia",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Applied AI & Deployment",
+     "url": "https://cursor.com/careers/forward-deployed-engineer-australiasingapore"
     }
    ],
-   "verified": "2026-11-14",
+   "verified": "2026-11-15",
    "type": "AI coding tools"
   },
   {
@@ -1272,77 +1269,77 @@ window.DASHBOARD_DATA = {
     {
      "title": "Sr. Delivery Solutions Architect",
      "location": "Singapore",
-     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8465963002",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8465963002"
     },
     {
      "title": "Sr. Manager, Partner Solutions Architect",
      "location": "Singapore",
-     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8073294002",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8073294002"
     },
     {
      "title": "Sr. Manager, Field Engineering",
      "location": "Singapore",
-     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8438767002",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8438767002"
     },
     {
      "title": "Solutions Architect",
      "location": "Singapore",
-     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8559339002",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8559339002"
     },
     {
      "title": "Solutions Architect (Lakebase)",
      "location": "Singapore",
-     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8567985002",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8567985002"
     },
     {
      "title": "APJ Field Engineering Leader - Lakebase",
      "location": "Singapore",
-     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568043002",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8568043002"
     },
     {
      "title": "Sr. Solutions Architect",
      "location": "Singapore",
-     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8622162002",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8622162002"
     },
     {
      "title": "Specialist Solutions Architect (Security)",
      "location": "Singapore",
-     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8622164002",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8622164002"
     },
     {
      "title": "Sr. Solutions Engineer",
      "location": "Singapore",
-     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8622166002",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8622166002"
     },
     {
      "title": "Sr. Forward Deployed Engineer",
      "location": "Singapore",
-     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8534142002",
-     "cat": "Applied AI & Deployment"
+     "cat": "Applied AI & Deployment",
+     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8534142002"
     },
     {
      "title": "Sr. Staff Forward Deployed Engineer",
      "location": "Singapore",
-     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8555674002",
-     "cat": "Applied AI & Deployment"
+     "cat": "Applied AI & Deployment",
+     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8555674002"
     },
     {
      "title": "Manager, Forward Deployed Engineering",
      "location": "Singapore",
-     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8629997002",
-     "cat": "Applied AI & Deployment"
+     "cat": "Applied AI & Deployment",
+     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8629997002"
     }
    ],
-   "verified": "2026-11-14",
+   "verified": "2026-11-15",
    "type": "Enterprise AI & data platforms"
   },
   {
@@ -1355,23 +1352,23 @@ window.DASHBOARD_DATA = {
     {
      "title": "Commercial Sales Engineer (Bahasa Indonesia-Speaking)",
      "location": "Singapore",
-     "url": "https://careers.datadoghq.com/detail/8177097/?gh_jid=8177097",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://careers.datadoghq.com/detail/8177097/?gh_jid=8177097"
     },
     {
      "title": "Director, Sales Engineering - ASEAN",
      "location": "Singapore",
-     "url": "https://careers.datadoghq.com/detail/8172864/?gh_jid=8172864",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://careers.datadoghq.com/detail/8172864/?gh_jid=8172864"
     },
     {
      "title": "Manager II, Services Architect",
      "location": "Singapore",
-     "url": "https://careers.datadoghq.com/detail/7939294/?gh_jid=7939294",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://careers.datadoghq.com/detail/7939294/?gh_jid=7939294"
     }
    ],
-   "verified": "2026-11-14",
+   "verified": "2026-11-15",
    "type": "Enterprise AI & data platforms"
   },
   {
@@ -1384,14 +1381,14 @@ window.DASHBOARD_DATA = {
     {
      "title": "Customer Success Engineer (Singapore)",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/Deepgram/4cc235e0-f195-4f44-84f3-c30e07c4a388",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://jobs.ashbyhq.com/Deepgram/4cc235e0-f195-4f44-84f3-c30e07c4a388"
     },
     {
      "title": "Senior Pre-Sales Solutions Engineer (Singapore)",
      "location": "Singapore",
-     "url": "https://jobs.ashbyhq.com/Deepgram/d28f0a61-4a59-4817-b101-3457077b01b7",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://jobs.ashbyhq.com/Deepgram/d28f0a61-4a59-4817-b101-3457077b01b7"
     }
    ],
    "verified": "2026-11-10",
@@ -1430,7 +1427,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Machine Learning & Data"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "ElevenLabs",
@@ -1442,21 +1440,11 @@ window.DASHBOARD_DATA = {
     {
      "title": "GTM Systems Architect - APAC",
      "location": "Singapore",
-     "url": "https://elevenlabs.io/careers/90cc8a34-1707-4aef-b509-94f94389d149/gtm-systems-architect-apac",
-     "cat": "Solutions & Support Engineering"
-    },
-    {
-     "title": "Research Engineer",
-     "location": "Remote",
-     "cat": "Research"
-    },
-    {
-     "title": "Application Security Engineer",
-     "location": "Remote",
-     "cat": "Infrastructure & Security"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://elevenlabs.io/careers/90cc8a34-1707-4aef-b509-94f94389d149/gtm-systems-architect-apac"
     }
    ],
-   "verified": "2026-11-14",
+   "verified": "2026-11-15",
    "type": "Voice AI"
   },
   {
@@ -1487,7 +1475,8 @@ window.DASHBOARD_DATA = {
      "cat": "Solutions & Support Engineering"
     }
    ],
-   "type": "AI cloud & inference"
+   "type": "AI cloud & inference",
+   "stale": true
   },
   {
    "name": "Funding Societies",
@@ -1512,11 +1501,12 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Machine Learning & Data"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Genspark",
-   "careers_url": "https://www.genspark.ai/business/careers",
+   "careers_url": "https://www.genspark.ai/careers",
    "segment": "AI agents",
    "hq": "Palo Alto",
    "singapore_office": true,
@@ -1527,7 +1517,8 @@ window.DASHBOARD_DATA = {
      "cat": "Software & Hardware Engineering"
     }
    ],
-   "type": "AI agents & search"
+   "type": "AI agents & search",
+   "stale": true
   },
   {
    "name": "Glean",
@@ -1547,7 +1538,8 @@ window.DASHBOARD_DATA = {
      "cat": "Solutions & Support Engineering"
     }
    ],
-   "type": "Enterprise AI & data platforms"
+   "type": "Enterprise AI & data platforms",
+   "stale": true
   },
   {
    "name": "Google Cloud",
@@ -1572,7 +1564,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Applied AI & Deployment"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Google DeepMind",
@@ -1584,29 +1577,29 @@ window.DASHBOARD_DATA = {
     {
      "title": "Research Scientist, Multimodal Generative AI, Google DeepMind",
      "location": "Singapore",
-     "url": "https://job-boards.greenhouse.io/deepmind/jobs/7135034",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://job-boards.greenhouse.io/deepmind/jobs/7135034"
     },
     {
      "title": "Staff Research Engineer, Applied AI, DeepMind",
      "location": "Singapore",
-     "url": "https://www.google.com/about/careers/applications/jobs/results/110885490286043846",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/110885490286043846"
     },
     {
      "title": "Technical Lead Manager, Applied AI, DeepMind",
      "location": "Singapore",
-     "url": "https://www.google.com/about/careers/applications/jobs/results/139054978189664966",
-     "cat": "Applied AI & Deployment"
+     "cat": "Applied AI & Deployment",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/139054978189664966"
     },
     {
      "title": "Research Scientist, Recursive Self Improvement and Post Training, DeepMind",
      "location": "Singapore",
-     "url": "https://www.google.com/about/careers/applications/jobs/results/135557734496903878",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://www.google.com/about/careers/applications/jobs/results/135557734496903878"
     }
    ],
-   "verified": "2026-11-14",
+   "verified": "2026-11-15",
    "type": "Frontier AI labs"
   },
   {
@@ -1647,7 +1640,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Machine Learning & Data"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Grab",
@@ -1722,7 +1716,8 @@ window.DASHBOARD_DATA = {
      "cat": "Machine Learning & Data"
     }
    ],
-   "type": "Consumer & e-commerce AI"
+   "type": "Consumer & e-commerce AI",
+   "stale": true
   },
   {
    "name": "Groq",
@@ -1737,7 +1732,8 @@ window.DASHBOARD_DATA = {
      "cat": "Infrastructure & Security"
     }
    ],
-   "type": "AI compute & chips"
+   "type": "AI compute & chips",
+   "stale": true
   },
   {
    "name": "HeyGen",
@@ -1772,7 +1768,8 @@ window.DASHBOARD_DATA = {
      "cat": "Research"
     }
    ],
-   "type": "Generative AI (video & content)"
+   "type": "Generative AI (video & content)",
+   "stale": true
   },
   {
    "name": "Holmusk",
@@ -1797,12 +1794,13 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Machine Learning & Data"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Huawei",
    "type": "AI research labs",
-   "careers_url": "https://www.huawei.com/en/careers",
+   "careers_url": "https://career.huawei.com/",
    "segment": "ICT & AI research",
    "hq": "Shenzhen",
    "singapore_office": true,
@@ -1832,7 +1830,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Solutions & Support Engineering"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Hugging Face",
@@ -1847,7 +1846,8 @@ window.DASHBOARD_DATA = {
      "cat": "Machine Learning & Data"
     }
    ],
-   "type": "AI cloud & inference"
+   "type": "AI cloud & inference",
+   "stale": true
   },
   {
    "name": "Hypotenuse AI",
@@ -1882,7 +1882,8 @@ window.DASHBOARD_DATA = {
      "cat": "Software & Hardware Engineering"
     }
    ],
-   "type": "Generative AI (video & content)"
+   "type": "Generative AI (video & content)",
+   "stale": true
   },
   {
    "name": "IBM",
@@ -1907,7 +1908,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Machine Learning & Data"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "LangChain",
@@ -1932,7 +1934,8 @@ window.DASHBOARD_DATA = {
      "cat": "Solutions & Support Engineering"
     }
    ],
-   "type": "Enterprise AI & data platforms"
+   "type": "Enterprise AI & data platforms",
+   "stale": true
   },
   {
    "name": "LionsBot",
@@ -1977,11 +1980,12 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Machine Learning & Data"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Manus AI",
-   "careers_url": "https://jobs.ashbyhq.com/manusai",
+   "careers_url": "https://manus.im/careers",
    "segment": "AI agents",
    "hq": "Singapore",
    "singapore_office": true,
@@ -1989,53 +1993,53 @@ window.DASHBOARD_DATA = {
     {
      "title": "Senior Site Reliability Engineer (SRE)",
      "location": "Singapore",
-     "url": "https://manus.im/careers",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://manus.im/careers"
     },
     {
      "title": "Database Engineer (DBA)",
      "location": "Singapore",
-     "url": "https://manus.im/careers",
-     "cat": "Machine Learning & Data"
+     "cat": "Infrastructure & Security",
+     "url": "https://manus.im/careers"
     },
     {
      "title": "Agent Engineer",
      "location": "Singapore",
-     "url": "https://manus.im/careers",
-     "cat": "Applied AI & Deployment"
+     "cat": "Applied AI & Deployment",
+     "url": "https://manus.im/careers"
     },
     {
      "title": "AIGC Algorithm Engineer",
      "location": "Singapore",
-     "url": "https://manus.im/careers",
-     "cat": "Machine Learning & Data"
+     "cat": "Machine Learning & Data",
+     "url": "https://manus.im/careers"
     },
     {
      "title": "Frontend Engineer",
      "location": "Singapore",
-     "url": "https://manus.im/careers",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://manus.im/careers"
     },
     {
      "title": "Backend Engineer (Golang)",
      "location": "Singapore",
-     "url": "https://manus.im/careers",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://manus.im/careers"
     },
     {
      "title": "Backend Lead",
      "location": "Singapore",
-     "url": "https://manus.im/careers",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://manus.im/careers"
     },
     {
      "title": "Test Engineer",
      "location": "Singapore",
-     "url": "https://manus.im/careers",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://manus.im/careers"
     }
    ],
-   "verified": "2026-11-14",
+   "verified": "2026-11-15",
    "type": "AI agents & search"
   },
   {
@@ -2071,12 +2075,13 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Machine Learning & Data"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Mesh Bio",
    "type": "AI for science, health & industry",
-   "careers_url": "https://www.meshbio.com/",
+   "careers_url": "https://www.meshbio.com/careers",
    "segment": "Healthcare AI",
    "hq": "Singapore",
    "singapore_office": true,
@@ -2096,7 +2101,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Solutions & Support Engineering"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Meta",
@@ -2121,12 +2127,13 @@ window.DASHBOARD_DATA = {
      "cat": "Research"
     }
    ],
-   "type": "Frontier AI labs"
+   "type": "Frontier AI labs",
+   "stale": true
   },
   {
    "name": "Micron",
    "type": "AI compute & chips",
-   "careers_url": "https://careers.micron.com/careers?location=Singapore",
+   "careers_url": "https://careers.micron.com/",
    "segment": "AI memory & manufacturing AI",
    "hq": "Boise",
    "singapore_office": true,
@@ -2171,7 +2178,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Applied AI & Deployment"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Microsoft Research",
@@ -2183,17 +2191,17 @@ window.DASHBOARD_DATA = {
     {
      "title": "Researcher",
      "location": "Singapore",
-     "url": "https://apply.careers.microsoft.com/careers/job/1970393556982285",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://apply.careers.microsoft.com/careers/job/1970393556982285"
     },
     {
      "title": "Research Intern",
      "location": "Singapore",
-     "url": "https://apply.careers.microsoft.com/careers/job/1970393556978904",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://apply.careers.microsoft.com/careers/job/1970393556978904"
     }
    ],
-   "verified": "2026-11-14",
+   "verified": "2026-11-15",
    "type": "AI research labs"
   },
   {
@@ -2209,7 +2217,8 @@ window.DASHBOARD_DATA = {
      "cat": "Research"
     }
    ],
-   "type": "Frontier AI labs"
+   "type": "Frontier AI labs",
+   "stale": true
   },
   {
    "name": "Mistral AI",
@@ -2249,7 +2258,8 @@ window.DASHBOARD_DATA = {
      "cat": "Applied AI & Deployment"
     }
    ],
-   "type": "Frontier AI labs"
+   "type": "Frontier AI labs",
+   "stale": true
   },
   {
    "name": "Mozat",
@@ -2264,7 +2274,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Research"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "NextBillion.ai",
@@ -2284,7 +2295,8 @@ window.DASHBOARD_DATA = {
      "cat": "Applied AI & Deployment"
     }
    ],
-   "type": "AI for science, health & industry"
+   "type": "AI for science, health & industry",
+   "stale": true
   },
   {
    "name": "Notion",
@@ -2304,7 +2316,8 @@ window.DASHBOARD_DATA = {
      "cat": "Infrastructure & Security"
     }
    ],
-   "type": "AI agents & search"
+   "type": "AI agents & search",
+   "stale": true
   },
   {
    "name": "NVIDIA",
@@ -2316,119 +2329,119 @@ window.DASHBOARD_DATA = {
     {
      "title": "Developer Relations Manager - Robotics and Generative AI",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893391224582",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://jobs.nvidia.com/careers/job/893391224582"
     },
     {
      "title": "Research Scientist",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893397632805",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://jobs.nvidia.com/careers/job/893397632805"
     },
     {
      "title": "Senior Developer Relations Manager – Cloud Provider AI Factory",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893397724854",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://jobs.nvidia.com/careers/job/893397724854"
     },
     {
      "title": "Senior Solution Architect, AI Compute Engineer - NVIS",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893395478499",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://jobs.nvidia.com/careers/job/893395478499"
     },
     {
      "title": "Senior Network Engineer, DGX Cloud - Backbone",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893396870064",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://jobs.nvidia.com/careers/job/893396870064"
     },
     {
      "title": "AI Research Scientist",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893394324684",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://jobs.nvidia.com/careers/job/893394324684"
     },
     {
      "title": "AI Research Scientist",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893395035612",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://jobs.nvidia.com/careers/job/893395035612"
     },
     {
      "title": "Test Engineer",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893396261078",
-     "cat": "Software & Hardware Engineering"
+     "cat": "Software & Hardware Engineering",
+     "url": "https://jobs.nvidia.com/careers/job/893396261078"
     },
     {
      "title": "Senior Cloud Infrastructure Automation Solutions Architect",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893397739923",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://jobs.nvidia.com/careers/job/893397739923"
     },
     {
      "title": "Senior Solutions Architect, Engagement Management - NVIS",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893398048788",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://jobs.nvidia.com/careers/job/893398048788"
     },
     {
      "title": "Solutions Architect, Vision AI",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893397209482",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://jobs.nvidia.com/careers/job/893397209482"
     },
     {
      "title": "Solutions Architect, NVIDIA Cloud Partners",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893397235089",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://jobs.nvidia.com/careers/job/893397235089"
     },
     {
      "title": "Solutions Architect, Data Center Infrastructure",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893397235091",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://jobs.nvidia.com/careers/job/893397235091"
     },
     {
      "title": "Research Scientist - AI",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893396114559",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://jobs.nvidia.com/careers/job/893396114559"
     },
     {
      "title": "Research Intern, Robotics — NVIDIA Research",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893398287727",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://jobs.nvidia.com/careers/job/893398287727"
     },
     {
      "title": "Research Intern, Robotics - 2027",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893398287733",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://jobs.nvidia.com/careers/job/893398287733"
     },
     {
      "title": "Senior Research Scientist - Autonomous Vehicles",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893398511928",
-     "cat": "Research"
+     "cat": "Research",
+     "url": "https://jobs.nvidia.com/careers/job/893398511928"
     },
     {
      "title": "Solutions Architect, Speech AI",
      "location": "Singapore",
-     "url": "https://jobs.nvidia.com/careers/job/893397235086",
-     "cat": "Solutions & Support Engineering"
+     "cat": "Solutions & Support Engineering",
+     "url": "https://jobs.nvidia.com/careers/job/893397235086"
     }
    ],
-   "verified": "2026-11-14",
+   "verified": "2026-11-15",
    "type": "AI compute & chips"
   },
   {
    "name": "OKX",
    "type": "AI for finance & security",
-   "careers_url": "https://job-boards.greenhouse.io/okx",
+   "careers_url": "https://www.okx.com/join-us",
    "segment": "Crypto exchange AI",
    "hq": "Seychelles / Singapore",
    "singapore_office": true,
@@ -2463,12 +2476,13 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Infrastructure & Security"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "OneByZero",
    "type": "Enterprise AI & data platforms",
-   "careers_url": "https://www.onebyzero.ai/",
+   "careers_url": "https://www.onebyzero.ai/careers",
    "segment": "Enterprise AI solutions",
    "hq": "Singapore",
    "singapore_office": true,
@@ -2493,7 +2507,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Software & Hardware Engineering"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "OpenAI",
@@ -2503,61 +2518,52 @@ window.DASHBOARD_DATA = {
    "singapore_office": true,
    "roles": [
     {
-     "title": "AI Deployment Engineering Manager, Startups",
-     "location": "Singapore",
-     "url": null,
-     "cat": "Applied AI & Deployment"
-    },
-    {
-     "title": "AI Support Engineer - Singapore",
-     "location": "Singapore",
-     "url": null,
-     "cat": "Solutions & Support Engineering"
-    },
-    {
-     "title": "Developer Experience Engineer (Mandarin-Speaking)",
-     "location": "Singapore",
-     "url": null,
-     "cat": "Solutions & Support Engineering"
-    },
-    {
-     "title": "Forward Deployed Engineer - Singapore",
-     "location": "Singapore",
-     "url": null,
-     "cat": "Applied AI & Deployment"
-    },
-    {
      "title": "Hardware Exploratory - Singapore",
      "location": "Singapore",
-     "url": null,
      "cat": "Software & Hardware Engineering"
     },
     {
      "title": "Manufacturing Test Engineer",
      "location": "Singapore",
-     "url": null,
      "cat": "Software & Hardware Engineering"
     },
     {
      "title": "Product Manufacturing Engineer",
      "location": "Singapore",
-     "url": null,
      "cat": "Software & Hardware Engineering"
     },
     {
-     "title": "Software Engineer, Infrastructure, Consumer Devices",
+     "title": "AI Deployment Engineering Manager, Startups",
      "location": "Singapore",
-     "url": null,
-     "cat": "Infrastructure & Security"
+     "cat": "Applied AI & Deployment"
+    },
+    {
+     "title": "AI Support Engineer - Singapore",
+     "location": "Singapore",
+     "cat": "Solutions & Support Engineering"
+    },
+    {
+     "title": "Developer Experience Engineer (Mandarin-Speaking)",
+     "location": "Singapore",
+     "cat": "Solutions & Support Engineering"
     },
     {
      "title": "Technical Deployment Lead - Singapore",
      "location": "Singapore",
-     "url": null,
+     "cat": "Applied AI & Deployment"
+    },
+    {
+     "title": "Software Engineer, Infrastructure, Consumer Devices",
+     "location": "Singapore",
+     "cat": "Infrastructure & Security"
+    },
+    {
+     "title": "Forward Deployed Engineer - Singapore",
+     "location": "Singapore",
      "cat": "Applied AI & Deployment"
     }
    ],
-   "verified": "2026-11-14",
+   "verified": "2026-11-15",
    "type": "Frontier AI labs"
   },
   {
@@ -2573,7 +2579,8 @@ window.DASHBOARD_DATA = {
      "cat": "Machine Learning & Data"
     }
    ],
-   "type": "AI for science, health & industry"
+   "type": "AI for science, health & industry",
+   "stale": true
   },
   {
    "name": "Perplexity",
@@ -2608,11 +2615,12 @@ window.DASHBOARD_DATA = {
      "cat": "Infrastructure & Security"
     }
    ],
-   "type": "AI agents & search"
+   "type": "AI agents & search",
+   "stale": true
   },
   {
    "name": "Pints AI",
-   "careers_url": "https://www.pints.ai/",
+   "careers_url": "https://www.pints.ai/careers",
    "segment": "AI for regulated finance",
    "hq": "Singapore",
    "singapore_office": true,
@@ -2638,11 +2646,12 @@ window.DASHBOARD_DATA = {
      "cat": "Software & Hardware Engineering"
     }
    ],
-   "type": "AI for finance & security"
+   "type": "AI for finance & security",
+   "stale": true
   },
   {
    "name": "Plaud",
-   "careers_url": "https://www.plaud.ai/",
+   "careers_url": "https://www.plaud.ai/pages/careers",
    "segment": "AI hardware & voice",
    "hq": "San Francisco / Shenzhen",
    "singapore_office": true,
@@ -2708,7 +2717,8 @@ window.DASHBOARD_DATA = {
      "cat": "Software & Hardware Engineering"
     }
    ],
-   "type": "Voice AI"
+   "type": "Voice AI",
+   "stale": true
   },
   {
    "name": "Qdrant",
@@ -2723,7 +2733,8 @@ window.DASHBOARD_DATA = {
      "location": "Remote",
      "cat": "Solutions & Support Engineering"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Razer",
@@ -2763,7 +2774,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Applied AI & Deployment"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Replit",
@@ -2788,7 +2800,8 @@ window.DASHBOARD_DATA = {
      "cat": "Solutions & Support Engineering"
     }
    ],
-   "type": "AI coding tools"
+   "type": "AI coding tools",
+   "stale": true
   },
   {
    "name": "Runway",
@@ -2803,7 +2816,8 @@ window.DASHBOARD_DATA = {
      "cat": "Research"
     }
    ],
-   "type": "Generative AI (video & content)"
+   "type": "Generative AI (video & content)",
+   "stale": true
   },
   {
    "name": "Salesforce AI Research",
@@ -2828,7 +2842,8 @@ window.DASHBOARD_DATA = {
      "cat": "Research"
     }
    ],
-   "type": "AI research labs"
+   "type": "AI research labs",
+   "stale": true
   },
   {
    "name": "Sea AI Lab (Sea Ltd)",
@@ -2863,12 +2878,13 @@ window.DASHBOARD_DATA = {
      "cat": "Research"
     }
    ],
-   "type": "AI research labs"
+   "type": "AI research labs",
+   "stale": true
   },
   {
    "name": "SenseTime",
    "type": "AI research labs",
-   "careers_url": "https://www.sensetime.com/en",
+   "careers_url": "https://www.sensetime.com/en/join-us",
    "segment": "Computer vision & foundation models",
    "hq": "Shanghai",
    "singapore_office": true,
@@ -2883,11 +2899,12 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Research"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Sharpa",
-   "careers_url": "https://www.sharpa.com/",
+   "careers_url": "https://www.sharpa.com/careers",
    "segment": "Humanoid robotics",
    "hq": "Singapore",
    "singapore_office": true,
@@ -2913,7 +2930,8 @@ window.DASHBOARD_DATA = {
      "cat": "Software & Hardware Engineering"
     }
    ],
-   "type": "Robotics & autonomous systems"
+   "type": "Robotics & autonomous systems",
+   "stale": true
   },
   {
    "name": "Shopee (Sea Ltd)",
@@ -2963,7 +2981,8 @@ window.DASHBOARD_DATA = {
      "cat": "Machine Learning & Data"
     }
    ],
-   "type": "Consumer & e-commerce AI"
+   "type": "Consumer & e-commerce AI",
+   "stale": true
   },
   {
    "name": "Sierra",
@@ -3003,11 +3022,12 @@ window.DASHBOARD_DATA = {
      "cat": "Applied AI & Deployment"
     }
    ],
-   "type": "AI agents & search"
+   "type": "AI agents & search",
+   "stale": true
   },
   {
    "name": "Silent Eight",
-   "careers_url": "https://www.silenteight.com/",
+   "careers_url": "https://www.silenteight.com/careers",
    "segment": "AI for financial crime",
    "hq": "Singapore",
    "singapore_office": true,
@@ -3023,7 +3043,8 @@ window.DASHBOARD_DATA = {
      "cat": "Applied AI & Deployment"
     }
    ],
-   "type": "AI for finance & security"
+   "type": "AI for finance & security",
+   "stale": true
   },
   {
    "name": "Snowflake",
@@ -3078,7 +3099,8 @@ window.DASHBOARD_DATA = {
      "cat": "Solutions & Support Engineering"
     }
    ],
-   "type": "Enterprise AI & data platforms"
+   "type": "Enterprise AI & data platforms",
+   "stale": true
   },
   {
    "name": "Sonar",
@@ -3103,11 +3125,12 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Applied AI & Deployment"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "SynaXG",
-   "careers_url": "https://www.synaxg.com/",
+   "careers_url": "https://www.synaxg.com/careers",
    "segment": "AI-native telecom (AI-RAN)",
    "hq": "Singapore",
    "singapore_office": true,
@@ -3143,7 +3166,8 @@ window.DASHBOARD_DATA = {
      "cat": "Software & Hardware Engineering"
     }
    ],
-   "type": "AI for science, health & industry"
+   "type": "AI for science, health & industry",
+   "stale": true
   },
   {
    "name": "Temus",
@@ -3173,7 +3197,8 @@ window.DASHBOARD_DATA = {
      "cat": "Applied AI & Deployment"
     }
    ],
-   "type": "Enterprise AI & data platforms"
+   "type": "Enterprise AI & data platforms",
+   "stale": true
   },
   {
    "name": "Tencent",
@@ -3218,7 +3243,8 @@ window.DASHBOARD_DATA = {
      "cat": "Research"
     }
    ],
-   "type": "Consumer & e-commerce AI"
+   "type": "Consumer & e-commerce AI",
+   "stale": true
   },
   {
    "name": "TikTok",
@@ -3258,7 +3284,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Machine Learning & Data"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Together AI",
@@ -3278,7 +3305,8 @@ window.DASHBOARD_DATA = {
      "cat": "Machine Learning & Data"
     }
    ],
-   "type": "AI cloud & inference"
+   "type": "AI cloud & inference",
+   "stale": true
   },
   {
    "name": "Tookitaki",
@@ -3318,7 +3346,8 @@ window.DASHBOARD_DATA = {
      "cat": "Applied AI & Deployment"
     }
    ],
-   "type": "AI for finance & security"
+   "type": "AI for finance & security",
+   "stale": true
   },
   {
    "name": "Unravel Carbon",
@@ -3353,7 +3382,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Machine Learning & Data"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Visa",
@@ -3383,7 +3413,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Machine Learning & Data"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "ViSenze",
@@ -3403,11 +3434,12 @@ window.DASHBOARD_DATA = {
      "cat": "Infrastructure & Security"
     }
    ],
-   "type": "Consumer & e-commerce AI"
+   "type": "Consumer & e-commerce AI",
+   "stale": true
   },
   {
    "name": "watchTowr",
-   "careers_url": "https://careers.watchtowr.com/",
+   "careers_url": "https://watchtowr.com/company/careers/",
    "segment": "AI-driven cybersecurity",
    "hq": "Singapore",
    "singapore_office": true,
@@ -3453,12 +3485,13 @@ window.DASHBOARD_DATA = {
      "cat": "Software & Hardware Engineering"
     }
    ],
-   "type": "AI for finance & security"
+   "type": "AI for finance & security",
+   "stale": true
   },
   {
    "name": "WeRide",
    "type": "Robotics & autonomous systems",
-   "careers_url": "https://www.weride.ai/",
+   "careers_url": "https://www.weride.ai/careers",
    "segment": "Autonomous driving",
    "hq": "Guangzhou",
    "singapore_office": true,
@@ -3468,11 +3501,12 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Software & Hardware Engineering"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "WIZ.AI",
-   "careers_url": "https://www.wiz.ai/",
+   "careers_url": "https://www.wiz.ai/careers/",
    "segment": "Conversational AI",
    "hq": "Singapore",
    "singapore_office": true,
@@ -3493,7 +3527,8 @@ window.DASHBOARD_DATA = {
      "cat": "Software & Hardware Engineering"
     }
    ],
-   "type": "Voice AI"
+   "type": "Voice AI",
+   "stale": true
   },
   {
    "name": "Workato",
@@ -3505,29 +3540,29 @@ window.DASHBOARD_DATA = {
     {
      "title": "Analytics Engineer",
      "location": "Singapore",
-     "url": "https://www.workato.com/careers?gh_jid=8870119002#open-roles",
-     "cat": "Machine Learning & Data"
+     "cat": "Machine Learning & Data",
+     "url": "https://www.workato.com/careers?gh_jid=8870119002#open-roles"
     },
     {
      "title": "Intern, Data Engineering",
      "location": "Singapore",
-     "url": "https://www.workato.com/careers?gh_jid=8731177002#open-roles",
-     "cat": "Machine Learning & Data"
+     "cat": "Machine Learning & Data",
+     "url": "https://www.workato.com/careers?gh_jid=8731177002#open-roles"
     },
     {
      "title": "Senior Infrastructure Engineer (AI Lab)",
      "location": "Singapore",
-     "url": "https://www.workato.com/careers?gh_jid=8288630002#open-roles",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.workato.com/careers?gh_jid=8288630002#open-roles"
     },
     {
      "title": "Senior Software Engineer (Golang - Platform team)",
      "location": "Singapore",
-     "url": "https://www.workato.com/careers?gh_jid=8499680002#open-roles",
-     "cat": "Infrastructure & Security"
+     "cat": "Infrastructure & Security",
+     "url": "https://www.workato.com/careers?gh_jid=8499680002#open-roles"
     }
    ],
-   "verified": "2026-11-14",
+   "verified": "2026-11-15",
    "type": "Enterprise AI & data platforms"
   },
   {
@@ -3543,7 +3578,8 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Solutions & Support Engineering"
     }
-   ]
+   ],
+   "stale": true
   },
   {
    "name": "Zoom",
@@ -3573,10 +3609,11 @@ window.DASHBOARD_DATA = {
      "location": "Singapore",
      "cat": "Applied AI & Deployment"
     }
-   ]
+   ],
+   "stale": true
   }
  ],
- "sources": "Roles at EDB key accounts marked 'Checked' were verified on each company's careers site (latest check shown). Other roles come from public job listings found on 14 Nov 2026.",
+ "sources": "Roles at EDB key accounts marked 'Checked' come from the daily key-account hiring tracker (official careers boards filtered to Singapore, 15 Nov 2026). Roles at other companies are from the 14 Nov 2026 count and are awaiting a recount from each company's Singapore-filtered careers listing.",
  "categories": [
   "Applied AI & Deployment",
   "Infrastructure & Security",
