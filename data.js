@@ -1,12 +1,12 @@
 // Dashboard data. Edit this file to update roles; the page reads it on load.
 window.DASHBOARD_DATA = {
- "as_of": "15 Nov 2026",
+ "as_of": "19 Nov 2026",
  "next_refresh": "4 Dec 2026",
  "rule": "Roles open to people based in Singapore are listed first. Where a company has none, its remote roles are listed instead.",
  "companies": [
   {
    "name": "ADVANCE.AI",
-   "careers_url": "https://advance.ai/careers",
+   "careers_url": "https://www.linkedin.com/company/advanceai-aai/jobs/",
    "segment": "AI for identity & risk",
    "hq": "Singapore",
    "singapore_office": true,
@@ -90,29 +90,19 @@ window.DASHBOARD_DATA = {
    "singapore_office": true,
    "roles": [
     {
-     "title": "Senior AI Research Engineer (Generative AI)",
-     "location": "Singapore",
-     "cat": "Research"
-    },
-    {
      "title": "Senior AI Engineer",
      "location": "Singapore",
      "cat": "Applied AI & Deployment"
     },
     {
-     "title": "AI Systems Engineer (Vision, Automation & Multimodal)",
+     "title": "Senior AI Research Engineer (Generative AI)",
      "location": "Singapore",
-     "cat": "Machine Learning & Data"
+     "cat": "Research"
     },
     {
-     "title": "Technical Solutions Engineer",
+     "title": "Field Engineer",
      "location": "Singapore",
      "cat": "Solutions & Support Engineering"
-    },
-    {
-     "title": "Senior Frontend Engineer",
-     "location": "Singapore",
-     "cat": "Software & Hardware Engineering"
     },
     {
      "title": "Junior DevOps Engineer (Deployment & Networking)",
@@ -121,7 +111,7 @@ window.DASHBOARD_DATA = {
     }
    ],
    "type": "AI for science, health & industry",
-   "stale": true
+   "verified": "2026-11-19"
   },
   {
    "name": "Airwallex",
@@ -761,7 +751,7 @@ window.DASHBOARD_DATA = {
   {
    "name": "Bifrost AI",
    "type": "AI for science, health & industry",
-   "careers_url": "https://www.bifrost.ai/careers",
+   "careers_url": "https://jobs.ashbyhq.com/bifrost",
    "segment": "Synthetic data for perception",
    "hq": "Singapore",
    "singapore_office": true,
@@ -842,7 +832,7 @@ window.DASHBOARD_DATA = {
   },
   {
    "name": "Bot MD",
-   "careers_url": "https://www.botmd.io/careers",
+   "careers_url": "https://www.botmd.com/careers",
    "segment": "Healthcare AI",
    "hq": "Singapore",
    "singapore_office": true,
@@ -1084,7 +1074,7 @@ window.DASHBOARD_DATA = {
   },
   {
    "name": "ChemLex",
-   "careers_url": "https://www.chemlex.com/careers",
+   "careers_url": "https://www.chemlex.com/jobs.html",
    "segment": "AI for science (self-driving lab)",
    "hq": "Singapore",
    "singapore_office": true,
@@ -1721,7 +1711,7 @@ window.DASHBOARD_DATA = {
   },
   {
    "name": "Groq",
-   "careers_url": "https://groq.com/careers",
+   "careers_url": "https://jobs.gem.com/groq",
    "segment": "AI inference chips",
    "hq": "Mountain View",
    "singapore_office": false,
@@ -1774,7 +1764,7 @@ window.DASHBOARD_DATA = {
   {
    "name": "Holmusk",
    "type": "AI for science, health & industry",
-   "careers_url": "https://jobs.lever.co/holmusk",
+   "careers_url": "https://www.holmusk.com/careers",
    "segment": "Healthcare AI & real-world evidence",
    "hq": "Singapore",
    "singapore_office": true,
@@ -1851,39 +1841,24 @@ window.DASHBOARD_DATA = {
   },
   {
    "name": "Hypotenuse AI",
-   "careers_url": "https://careers.hypotenuse.ai/",
+   "careers_url": "https://www.ycombinator.com/companies/hypotenuse-ai/jobs",
    "segment": "Generative AI for e-commerce",
    "hq": "Singapore",
    "singapore_office": true,
    "roles": [
     {
-     "title": "Lead/Senior Software Engineer (Full Stack)",
+     "title": "Lead Software Engineer (Full Stack)",
      "location": "Singapore",
      "cat": "Software & Hardware Engineering"
     },
     {
-     "title": "Full Stack Software Engineer",
-     "location": "Singapore",
-     "cat": "Software & Hardware Engineering"
-    },
-    {
-     "title": "Product Engineer",
-     "location": "Singapore",
-     "cat": "Software & Hardware Engineering"
-    },
-    {
-     "title": "Product Architect (Forward Deployed)",
-     "location": "Singapore",
-     "cat": "Applied AI & Deployment"
-    },
-    {
-     "title": "Full-Stack Software Engineer Intern",
+     "title": "Full Stack Software Engineer Intern (6 months)",
      "location": "Singapore",
      "cat": "Software & Hardware Engineering"
     }
    ],
    "type": "Generative AI (video & content)",
-   "stale": true
+   "verified": "2026-11-19"
   },
   {
    "name": "IBM",
@@ -1985,61 +1960,53 @@ window.DASHBOARD_DATA = {
   },
   {
    "name": "Manus AI",
-   "careers_url": "https://manus.im/careers",
+   "careers_url": "https://careers.manus.im/en",
    "segment": "AI agents",
    "hq": "Singapore",
    "singapore_office": true,
    "roles": [
     {
-     "title": "Senior Site Reliability Engineer (SRE)",
+     "title": "Agent Harness Engineer",
      "location": "Singapore",
-     "cat": "Infrastructure & Security",
-     "url": "https://manus.im/careers"
+     "cat": "Applied AI & Deployment"
     },
     {
-     "title": "Database Engineer (DBA)",
+     "title": "LLM Algorithm Engineer",
      "location": "Singapore",
-     "cat": "Infrastructure & Security",
-     "url": "https://manus.im/careers"
+     "cat": "Machine Learning & Data"
     },
     {
-     "title": "Agent Engineer",
+     "title": "Full-Stack Engineer",
      "location": "Singapore",
-     "cat": "Applied AI & Deployment",
-     "url": "https://manus.im/careers"
+     "cat": "Software & Hardware Engineering"
     },
     {
-     "title": "AIGC Algorithm Engineer",
+     "title": "Backend Engineer (Application Development)",
      "location": "Singapore",
-     "cat": "Machine Learning & Data",
-     "url": "https://manus.im/careers"
+     "cat": "Software & Hardware Engineering"
     },
     {
-     "title": "Frontend Engineer",
+     "title": "Security Engineer",
      "location": "Singapore",
-     "cat": "Software & Hardware Engineering",
-     "url": "https://manus.im/careers"
+     "cat": "Infrastructure & Security"
     },
     {
-     "title": "Backend Engineer (Golang)",
+     "title": "Virtualization Engineer",
      "location": "Singapore",
-     "cat": "Software & Hardware Engineering",
-     "url": "https://manus.im/careers"
+     "cat": "Software & Hardware Engineering"
     },
     {
-     "title": "Backend Lead",
+     "title": "DevOps Engineer",
      "location": "Singapore",
-     "cat": "Software & Hardware Engineering",
-     "url": "https://manus.im/careers"
+     "cat": "Infrastructure & Security"
     },
     {
-     "title": "Test Engineer",
+     "title": "Agent Evaluation Engineer",
      "location": "Singapore",
-     "cat": "Software & Hardware Engineering",
-     "url": "https://manus.im/careers"
+     "cat": "Applied AI & Deployment"
     }
    ],
-   "verified": "2026-11-15",
+   "verified": "2026-11-19",
    "type": "AI agents & search"
   },
   {
@@ -2206,7 +2173,7 @@ window.DASHBOARD_DATA = {
   },
   {
    "name": "MiroMind",
-   "careers_url": "https://www.miromind.ai/career",
+   "careers_url": "https://www.linkedin.com/company/miromind-ai/jobs/",
    "segment": "Foundation model lab",
    "hq": "Singapore",
    "singapore_office": true,
@@ -2275,27 +2242,6 @@ window.DASHBOARD_DATA = {
      "cat": "Research"
     }
    ],
-   "stale": true
-  },
-  {
-   "name": "NextBillion.ai",
-   "careers_url": "https://careers.nextbillion.ai/",
-   "segment": "AI for maps & logistics",
-   "hq": "Singapore",
-   "singapore_office": true,
-   "roles": [
-    {
-     "title": "Senior Backend Engineer (Route Optimization)",
-     "location": "Singapore",
-     "cat": "Software & Hardware Engineering"
-    },
-    {
-     "title": "AI Engineer / AI Product Engineering",
-     "location": "Singapore",
-     "cat": "Applied AI & Deployment"
-    }
-   ],
-   "type": "AI for science, health & industry",
    "stale": true
   },
   {
@@ -2568,7 +2514,7 @@ window.DASHBOARD_DATA = {
   },
   {
    "name": "Patsnap",
-   "careers_url": "https://jobs.lever.co/patsnap",
+   "careers_url": "https://careers.patsnap.com/",
    "segment": "AI for R&D / IP",
    "hq": "Singapore",
    "singapore_office": true,
@@ -2620,7 +2566,7 @@ window.DASHBOARD_DATA = {
   },
   {
    "name": "Pints AI",
-   "careers_url": "https://www.pints.ai/careers",
+   "careers_url": "https://www.linkedin.com/company/pints-ai/jobs/",
    "segment": "AI for regulated finance",
    "hq": "Singapore",
    "singapore_office": true,
@@ -2651,7 +2597,7 @@ window.DASHBOARD_DATA = {
   },
   {
    "name": "Plaud",
-   "careers_url": "https://www.plaud.ai/pages/careers",
+   "careers_url": "https://jobs.ashbyhq.com/plaud",
    "segment": "AI hardware & voice",
    "hq": "San Francisco / Shenzhen",
    "singapore_office": true,
@@ -2723,7 +2669,7 @@ window.DASHBOARD_DATA = {
   {
    "name": "Qdrant",
    "type": "Enterprise AI & data platforms",
-   "careers_url": "https://qdrant.tech/careers/",
+   "careers_url": "https://jobs.ashbyhq.com/qdrant.tech",
    "segment": "Vector database",
    "hq": "Berlin",
    "singapore_office": false,
@@ -2904,7 +2850,7 @@ window.DASHBOARD_DATA = {
   },
   {
    "name": "Sharpa",
-   "careers_url": "https://www.sharpa.com/careers",
+   "careers_url": "https://www.sharpa.com/pages/careers",
    "segment": "Humanoid robotics",
    "hq": "Singapore",
    "singapore_office": true,
@@ -3130,7 +3076,7 @@ window.DASHBOARD_DATA = {
   },
   {
    "name": "SynaXG",
-   "careers_url": "https://www.synaxg.com/careers",
+   "careers_url": "https://www.linkedin.com/company/synaxg/jobs/",
    "segment": "AI-native telecom (AI-RAN)",
    "hq": "Singapore",
    "singapore_office": true,
@@ -3309,47 +3255,6 @@ window.DASHBOARD_DATA = {
    "stale": true
   },
   {
-   "name": "Tookitaki",
-   "careers_url": "https://tookitaki.com/careers",
-   "segment": "AI for financial crime",
-   "hq": "Singapore",
-   "singapore_office": true,
-   "roles": [
-    {
-     "title": "Lead Data Science",
-     "location": "Singapore",
-     "cat": "Machine Learning & Data"
-    },
-    {
-     "title": "Data Scientist",
-     "location": "Singapore",
-     "cat": "Machine Learning & Data"
-    },
-    {
-     "title": "Applied Research Engineer",
-     "location": "Singapore",
-     "cat": "Research"
-    },
-    {
-     "title": "Senior Software Engineer",
-     "location": "Singapore",
-     "cat": "Software & Hardware Engineering"
-    },
-    {
-     "title": "Data Engineer (6-Month Contract)",
-     "location": "Singapore",
-     "cat": "Machine Learning & Data"
-    },
-    {
-     "title": "AI Specialist - SG",
-     "location": "Singapore",
-     "cat": "Applied AI & Deployment"
-    }
-   ],
-   "type": "AI for finance & security",
-   "stale": true
-  },
-  {
    "name": "Unravel Carbon",
    "type": "AI for science, health & industry",
    "careers_url": "https://careers-page.com/unravel-carbon-pte-ltd",
@@ -3417,76 +3322,20 @@ window.DASHBOARD_DATA = {
    "stale": true
   },
   {
-   "name": "ViSenze",
-   "careers_url": "https://apply.workable.com/visenze/",
-   "segment": "Visual search AI",
-   "hq": "Singapore",
-   "singapore_office": true,
-   "roles": [
-    {
-     "title": "Full Stack Software Engineer",
-     "location": "Singapore",
-     "cat": "Software & Hardware Engineering"
-    },
-    {
-     "title": "Sr. DevOps Engineer",
-     "location": "Singapore",
-     "cat": "Infrastructure & Security"
-    }
-   ],
-   "type": "Consumer & e-commerce AI",
-   "stale": true
-  },
-  {
    "name": "watchTowr",
-   "careers_url": "https://watchtowr.com/company/careers/",
+   "careers_url": "https://careers.watchtowr.com/",
    "segment": "AI-driven cybersecurity",
    "hq": "Singapore",
    "singapore_office": true,
    "roles": [
     {
-     "title": "Principal Platform Engineer",
+     "title": "Red Team Engineer (SG)",
      "location": "Singapore",
      "cat": "Infrastructure & Security"
-    },
-    {
-     "title": "Senior Backend Engineer",
-     "location": "Singapore",
-     "cat": "Software & Hardware Engineering"
-    },
-    {
-     "title": "Backend Engineer",
-     "location": "Singapore",
-     "cat": "Software & Hardware Engineering"
-    },
-    {
-     "title": "Vulnerability Engineer",
-     "location": "Singapore",
-     "cat": "Infrastructure & Security"
-    },
-    {
-     "title": "Engineering Lead (CFA)",
-     "location": "Singapore",
-     "cat": "Software & Hardware Engineering"
-    },
-    {
-     "title": "Engineering Lead, Cyber Engineering",
-     "location": "Singapore",
-     "cat": "Infrastructure & Security"
-    },
-    {
-     "title": "Junior Engineer, CFA Engineering",
-     "location": "Singapore",
-     "cat": "Software & Hardware Engineering"
-    },
-    {
-     "title": "Application Engineering Lead",
-     "location": "Singapore",
-     "cat": "Software & Hardware Engineering"
     }
    ],
    "type": "AI for finance & security",
-   "stale": true
+   "verified": "2026-11-19"
   },
   {
    "name": "WeRide",
@@ -3506,7 +3355,7 @@ window.DASHBOARD_DATA = {
   },
   {
    "name": "WIZ.AI",
-   "careers_url": "https://www.wiz.ai/careers/",
+   "careers_url": "https://www.wiz.ai/pages/join-us.html",
    "segment": "Conversational AI",
    "hq": "Singapore",
    "singapore_office": true,
