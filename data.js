@@ -1814,6 +1814,22 @@ window.DASHBOARD_DATA = {
    "stale": true
   },
   {
+   "name": "Horizon3.ai",
+   "type": "AI for finance & security",
+   "careers_url": "https://jobs.ashbyhq.com/horizon3ai",
+   "segment": "Autonomous penetration testing",
+   "hq": "San Francisco",
+   "singapore_office": true,
+   "verified": "2026-11-19",
+   "roles": [
+    {
+     "title": "Senior Technical Support Engineer, Singapore",
+     "location": "Singapore",
+     "cat": "Solutions & Support Engineering"
+    }
+   ]
+  },
+  {
    "name": "Huawei",
    "type": "AI research labs",
    "careers_url": "https://career.huawei.com/",
@@ -2196,6 +2212,27 @@ window.DASHBOARD_DATA = {
    ],
    "verified": "2026-11-15",
    "type": "AI research labs"
+  },
+  {
+   "name": "MiniMax",
+   "type": "Frontier AI labs",
+   "careers_url": "https://vrfi1sk8a0.jobs.feishu.cn/index/?location=CT_163",
+   "segment": "Multimodal foundation models",
+   "hq": "Shanghai",
+   "singapore_office": true,
+   "verified": "2026-11-19",
+   "roles": [
+    {
+     "title": "Forward Deployed Engineer（前沿部署工程师）",
+     "location": "Singapore",
+     "cat": "Applied AI & Deployment"
+    },
+    {
+     "title": "AI架构师 (AI Architect)",
+     "location": "Singapore",
+     "cat": "Solutions & Support Engineering"
+    }
+   ]
   },
   {
    "name": "MiroMind",
@@ -2774,6 +2811,22 @@ window.DASHBOARD_DATA = {
    ],
    "type": "AI coding tools",
    "stale": true
+  },
+  {
+   "name": "Rogo",
+   "type": "AI for finance & security",
+   "careers_url": "https://jobs.ashbyhq.com/rogo",
+   "segment": "AI for investment banking",
+   "hq": "New York",
+   "singapore_office": true,
+   "verified": "2026-11-19",
+   "roles": [
+    {
+     "title": "Solutions Architect, APAC",
+     "location": "Singapore",
+     "cat": "Solutions & Support Engineering"
+    }
+   ]
   },
   {
    "name": "Runway",
