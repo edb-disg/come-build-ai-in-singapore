@@ -168,7 +168,7 @@ footer p{margin:0}
     </header>
 
     <section class="summary" aria-label="Summary">
-      <div class="cobox"><span class="n" id="h-cos">0</span><div class="txt"><span class="l">companies hiring for technical AI roles in Singapore</span><span class="s">Ranging from AI-native firms to MNCs to startups</span></div></div>
+      <div class="cobox"><span class="n" id="h-cos">0</span><div class="txt"><span class="l">companies hiring for technical AI roles</span><span class="s" id="h-cos-sub">Ranging from AI-native firms to MNCs to startups</span></div></div>
       <div class="stats">
         <div class="stat"><span class="n" id="s-sg">0</span><span class="l">Technical roles based in Singapore</span><span class="s" id="s-sg-sub"></span></div>
         <div class="stat"><span class="n" id="s-remote">0</span><span class="l">Remote roles available</span><span class="s" id="s-remote-sub"></span></div>
@@ -238,7 +238,9 @@ footer p{margin:0}
   var sg=0, rem=0, sgCos={}, remCos={};
   C.forEach(function(c){c.roles.forEach(function(r){if(r.location==="Remote"){rem++;remCos[c.name]=1}else{sg++;sgCos[c.name]=1}})});
   var nsg=Object.keys(sgCos).length, nrem=Object.keys(remCos).length;
-  $("h-cos").textContent=nsg; 
+  var nsgOnly=C.filter(function(c){return c.roles.some(function(r){return r.location!=="Remote"})}).length, nremOnly=C.length-nsgOnly;
+  $("h-cos").textContent=C.length;
+  $("h-cos-sub").textContent=nsgOnly+" hiring in Singapore and "+nremOnly+" hiring remotely, ranging from AI-native firms to MNCs to startups";
   $("s-sg").textContent=sg; $("s-remote").textContent=rem;
   $("s-sg-sub").textContent="across "+CATS.length+" role types";
   $("s-remote-sub").textContent="at "+nrem+" compan"+(nrem===1?"y":"ies")+", open to candidates in Singapore";
