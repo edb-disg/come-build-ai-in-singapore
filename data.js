@@ -3626,6 +3626,22 @@ window.DASHBOARD_DATA = {
    "stale": true
   },
   {
+   "name": "Wonderful",
+   "type": "AI agents & search",
+   "careers_url": "https://jobs.ashbyhq.com/wonderful",
+   "segment": "Multilingual AI customer-service agents",
+   "hq": "Tel Aviv",
+   "singapore_office": true,
+   "verified": "2026-11-19",
+   "roles": [
+    {
+     "title": "Forward Deployed Engineer",
+     "location": "Singapore",
+     "cat": "Applied AI & Deployment"
+    }
+   ]
+  },
+  {
    "name": "Workato",
    "careers_url": "https://www.workato.com/careers",
    "segment": "Enterprise AI automation",
