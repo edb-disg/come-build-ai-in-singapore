@@ -1,7 +1,7 @@
 // Dashboard data. Edit this file to update roles; the page reads it on load.
 window.DASHBOARD_DATA = {
  "as_of": "19 Nov 2026",
- "next_refresh": "4 Dec 2026",
+ "next_refresh": "Mon 23 Nov 2026",
  "rule": "Roles open to people based in Singapore are listed first. Where a company has none, its remote roles are listed instead.",
  "companies": [
   {
@@ -1438,6 +1438,32 @@ window.DASHBOARD_DATA = {
    "type": "Voice AI"
   },
   {
+   "name": "Exa",
+   "type": "AI agents & search",
+   "careers_url": "https://jobs.ashbyhq.com/exa",
+   "segment": "AI search engine",
+   "hq": "San Francisco",
+   "singapore_office": true,
+   "verified": "2026-11-19",
+   "roles": [
+    {
+     "title": "Software Engineer, Backend",
+     "location": "Singapore",
+     "cat": "Software & Hardware Engineering"
+    },
+    {
+     "title": "Software Engineer, Web Crawling",
+     "location": "Singapore",
+     "cat": "Software & Hardware Engineering"
+    },
+    {
+     "title": "Forward Deployed Engineer, APJ",
+     "location": "Singapore",
+     "cat": "Applied AI & Deployment"
+    }
+   ]
+  },
+  {
    "name": "Fireworks AI",
    "careers_url": "https://fireworks.ai/careers",
    "segment": "AI inference platform",
@@ -2847,6 +2873,46 @@ window.DASHBOARD_DATA = {
     }
    ],
    "stale": true
+  },
+  {
+   "name": "ServiceNow",
+   "type": "Enterprise AI & data platforms",
+   "careers_url": "https://careers.servicenow.com/",
+   "segment": "Enterprise AI workflow platform",
+   "hq": "Santa Clara",
+   "singapore_office": true,
+   "roles": [
+    {
+     "title": "AI Engineer - AI Foundry",
+     "location": "Singapore",
+     "cat": "Applied AI & Deployment"
+    },
+    {
+     "title": "Forward Deployed Software Engineer (Applied AI - AI/ML)",
+     "location": "Singapore",
+     "cat": "Applied AI & Deployment"
+    },
+    {
+     "title": "Forward Deployed Software Engineer - Applied AI FDE (Full Stack Engineer)",
+     "location": "Singapore",
+     "cat": "Applied AI & Deployment"
+    },
+    {
+     "title": "Forward Deployed Solution Architect (Applied AI)",
+     "location": "Singapore",
+     "cat": "Applied AI & Deployment"
+    },
+    {
+     "title": "Senior Machine Learning Engineer",
+     "location": "Singapore",
+     "cat": "Machine Learning & Data"
+    },
+    {
+     "title": "Staff Machine Learning Engineer",
+     "location": "Singapore",
+     "cat": "Machine Learning & Data"
+    }
+   ]
   },
   {
    "name": "Sharpa",
