@@ -3501,6 +3501,26 @@ window.DASHBOARD_DATA = {
    "stale": true
   },
   {
+   "name": "&Truth",
+   "type": "AI for finance & security",
+   "careers_url": "https://andtruth.com/careers/",
+   "segment": "AI-assisted formal verification of code",
+   "hq": "Palo Alto (international HQ Singapore)",
+   "singapore_office": true,
+   "roles": [
+    {
+     "title": "Principal Engineer",
+     "location": "Singapore",
+     "cat": "Research"
+    },
+    {
+     "title": "Principal Engineer (Formal Methods & Program Verification)",
+     "location": "Singapore",
+     "cat": "Research"
+    }
+   ]
+  },
+  {
    "name": "Unravel Carbon",
    "type": "AI for science, health & industry",
    "careers_url": "https://careers-page.com/unravel-carbon-pte-ltd",
