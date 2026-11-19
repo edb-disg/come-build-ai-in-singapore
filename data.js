@@ -2308,6 +2308,72 @@ window.DASHBOARD_DATA = {
    "stale": true
   },
   {
+   "name": "Nebius",
+   "type": "AI cloud & inference",
+   "careers_url": "https://job-boards.greenhouse.io/nebius",
+   "segment": "AI cloud and GPU infrastructure",
+   "hq": "Amsterdam",
+   "singapore_office": true,
+   "verified": "2026-11-19",
+   "roles": [
+    {
+     "title": "GPU Cluster Architect",
+     "location": "Singapore",
+     "cat": "Infrastructure & Security"
+    },
+    {
+     "title": "Field Deploy Engineer",
+     "location": "Singapore",
+     "cat": "Applied AI & Deployment"
+    },
+    {
+     "title": "Senior Customer AI Engineer - Token Factory",
+     "location": "Singapore",
+     "cat": "Applied AI & Deployment"
+    },
+    {
+     "title": "Solutions Architect",
+     "location": "Singapore",
+     "cat": "Solutions & Support Engineering"
+    },
+    {
+     "title": "Data Center - L3 Support Engineer",
+     "location": "Singapore",
+     "cat": "Solutions & Support Engineering"
+    },
+    {
+     "title": "Network Engineer",
+     "location": "Singapore",
+     "cat": "Infrastructure & Security"
+    },
+    {
+     "title": "Sr. Enterprise Network Engineer",
+     "location": "Singapore",
+     "cat": "Infrastructure & Security"
+    },
+    {
+     "title": "Staff Site Reliability engineer - Network infrastructure - APAC",
+     "location": "Singapore",
+     "cat": "Infrastructure & Security"
+    },
+    {
+     "title": "Staff Software engineer - Network infrastructure - APAC",
+     "location": "Singapore",
+     "cat": "Infrastructure & Security"
+    },
+    {
+     "title": "Engineering manager - Network infrastructure - APAC",
+     "location": "Singapore",
+     "cat": "Infrastructure & Security"
+    },
+    {
+     "title": "Engineering Manager/Network Team Lead",
+     "location": "Singapore",
+     "cat": "Infrastructure & Security"
+    }
+   ]
+  },
+  {
    "name": "Notion",
    "careers_url": "https://www.notion.com/careers",
    "segment": "AI productivity",
@@ -2626,6 +2692,67 @@ window.DASHBOARD_DATA = {
    ],
    "type": "AI agents & search",
    "stale": true
+  },
+  {
+   "name": "PhysicsX",
+   "type": "AI for science, health & industry",
+   "careers_url": "https://job-boards.greenhouse.io/physicsx",
+   "segment": "Physics AI for engineering",
+   "hq": "London",
+   "singapore_office": true,
+   "verified": "2026-11-19",
+   "roles": [
+    {
+     "title": "Applied Scientist - All Levels",
+     "location": "Singapore",
+     "cat": "Research"
+    },
+    {
+     "title": "CFD Engineer",
+     "location": "Singapore",
+     "cat": "Software & Hardware Engineering"
+    },
+    {
+     "title": "CFD Multiphase & DEM Engineer",
+     "location": "Singapore",
+     "cat": "Software & Hardware Engineering"
+    },
+    {
+     "title": "Forward Deployed Software Engineer",
+     "location": "Singapore",
+     "cat": "Applied AI & Deployment"
+    },
+    {
+     "title": "Machine Learning Engineer",
+     "location": "Singapore",
+     "cat": "Machine Learning & Data"
+    },
+    {
+     "title": "Principal CFD Engineer",
+     "location": "Singapore",
+     "cat": "Software & Hardware Engineering"
+    },
+    {
+     "title": "Principal Machine Learning Engineer",
+     "location": "Singapore",
+     "cat": "Machine Learning & Data"
+    },
+    {
+     "title": "Senior Applied Engineer",
+     "location": "Singapore",
+     "cat": "Applied AI & Deployment"
+    },
+    {
+     "title": "Senior Forward Deployed Software Engineer",
+     "location": "Singapore",
+     "cat": "Applied AI & Deployment"
+    },
+    {
+     "title": "Senior Machine Learning Infrastructure Engineer, Research",
+     "location": "Singapore",
+     "cat": "Research"
+    }
+   ]
   },
   {
    "name": "Pints AI",
