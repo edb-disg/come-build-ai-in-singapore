@@ -1752,6 +1752,27 @@ window.DASHBOARD_DATA = {
    "stale": true
   },
   {
+   "name": "Harvey",
+   "type": "Enterprise AI & data platforms",
+   "careers_url": "https://jobs.ashbyhq.com/harvey",
+   "segment": "AI for legal and professional services",
+   "hq": "San Francisco",
+   "singapore_office": true,
+   "verified": "2026-11-19",
+   "roles": [
+    {
+     "title": "Legal Engineer, Product Specialist",
+     "location": "Singapore",
+     "cat": "Solutions & Support Engineering"
+    },
+    {
+     "title": "Head of Legal Engineering, APAC",
+     "location": "Singapore",
+     "cat": "Solutions & Support Engineering"
+    }
+   ]
+  },
+  {
    "name": "HeyGen",
    "careers_url": "https://www.heygen.com/careers",
    "segment": "Video generation",
@@ -1953,6 +1974,21 @@ window.DASHBOARD_DATA = {
    ],
    "type": "Enterprise AI & data platforms",
    "stale": true
+  },
+  {
+   "name": "Legora",
+   "type": "Enterprise AI & data platforms",
+   "careers_url": "https://jobs.ashbyhq.com/legora",
+   "segment": "AI workspace for legal teams",
+   "hq": "Stockholm",
+   "singapore_office": true,
+   "roles": [
+    {
+     "title": "Senior Legal Engineer - Singapore",
+     "location": "Singapore",
+     "cat": "Solutions & Support Engineering"
+    }
+   ]
   },
   {
    "name": "LionsBot",
